@@ -39,13 +39,13 @@
 		]
 	},
 	"dependencies": {
-		"pict-section-code": "^1.0.0",
-		"pict-view": "^1.0.67"
+		"pict-section-code": "^1.0.6",
+		"pict-view": "^1.0.68"
 	},
 	"devDependencies": {
 		"browser-env": "^3.3.0",
-		"pict": "^1.0.357",
-		"pict-docuserve": "^0.1.5",
-		"quackage": "^1.1.0"
+		"pict": "^1.0.367",
+		"pict-docuserve": "^0.1.6",
+		"quackage": "^1.2.3"
 	}
 }
