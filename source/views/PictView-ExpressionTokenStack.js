@@ -476,7 +476,7 @@ class PictViewExpressionTokenStack extends libPictViewClass
 			.peq-ts-eval-sym-new
 			{
 				background: #dcfce7;
-				color: #15803d;
+				color: var(--theme-color-status-success, #15803d);
 				border: 1px solid #86efac;
 			}
 			.peq-ts-eval-sym-existing
@@ -670,15 +670,15 @@ class PictViewExpressionTokenStack extends libPictViewClass
 			let tmpExprHTML = '';
 			if (tmpOpToken === '=')
 			{
-				tmpExprHTML = `<span style="color:#7c3aed">${this.escapeHTML(tmpVName)}</span> <span style="color:#dc2626">=</span> ${this.buildOperandText(tmpOp.LeftValue)}`;
+				tmpExprHTML = `<span style="color:#7c3aed">${this.escapeHTML(tmpVName)}</span> <span style="color:var(--theme-color-status-error, #dc2626)">=</span> ${this.buildOperandText(tmpOp.LeftValue)}`;
 			}
 			else if (tmpVPrefix === 'VFE')
 			{
-				tmpExprHTML = `<span style="color:#7c3aed">${this.escapeHTML(tmpVName)}</span> <span style="color:#dc2626">=</span> <span style="color:#d97706">${this.escapeHTML(tmpOpToken)}</span>(${this.buildOperandText(tmpOp.LeftValue)})`;
+				tmpExprHTML = `<span style="color:#7c3aed">${this.escapeHTML(tmpVName)}</span> <span style="color:var(--theme-color-status-error, #dc2626)">=</span> <span style="color:var(--theme-color-status-warning, #d97706)">${this.escapeHTML(tmpOpToken)}</span>(${this.buildOperandText(tmpOp.LeftValue)})`;
 			}
 			else
 			{
-				tmpExprHTML = `<span style="color:#7c3aed">${this.escapeHTML(tmpVName)}</span> <span style="color:#dc2626">=</span> ${this.buildOperandText(tmpOp.LeftValue)} <span style="color:#dc2626">${this.escapeHTML(tmpOpToken)}</span> ${this.buildOperandText(tmpOp.RightValue)}`;
+				tmpExprHTML = `<span style="color:#7c3aed">${this.escapeHTML(tmpVName)}</span> <span style="color:var(--theme-color-status-error, #dc2626)">=</span> ${this.buildOperandText(tmpOp.LeftValue)} <span style="color:var(--theme-color-status-error, #dc2626)">${this.escapeHTML(tmpOpToken)}</span> ${this.buildOperandText(tmpOp.RightValue)}`;
 			}
 
 			// Build the resolved expression

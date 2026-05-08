@@ -506,7 +506,7 @@ class PictViewExpressionTokenizedEditor extends libPictViewClass
 	flex-wrap: wrap;
 	gap: 3px;
 	padding: 6px 8px;
-	background: #FDFCFA;
+	background: var(--theme-color-background-panel, #FDFCFA);
 	border: 1px solid #E8E3DA;
 	border-radius: 4px;
 	margin-bottom: 10px;
@@ -526,17 +526,17 @@ class PictViewExpressionTokenizedEditor extends libPictViewClass
 .peq-te-linter-token-constant
 {
 	background: #FDF6EC;
-	color: #986801;
+	color: var(--theme-color-status-warning, #986801);
 }
 .peq-te-linter-token-symbol
 {
 	background: #EEF3FF;
-	color: #4078F2;
+	color: var(--theme-color-brand-primary, #4078F2);
 }
 .peq-te-linter-token-operator
 {
 	background: #EAF5F8;
-	color: #0184BC;
+	color: var(--theme-color-status-info, #0184BC);
 	font-weight: 600;
 }
 .peq-te-linter-token-function
@@ -548,7 +548,7 @@ class PictViewExpressionTokenizedEditor extends libPictViewClass
 .peq-te-linter-token-string
 {
 	background: #EEF7EE;
-	color: #50A14F;
+	color: var(--theme-color-status-success, #50A14F);
 }
 .peq-te-linter-token-stateaddress
 {
@@ -563,7 +563,7 @@ class PictViewExpressionTokenizedEditor extends libPictViewClass
 }
 .peq-te-linter-token-parenthesis
 {
-	background: #F0ECE4;
+	background: var(--theme-color-background-secondary, #F0ECE4);
 	color: #8A7F72;
 	font-weight: 600;
 }
@@ -583,8 +583,8 @@ class PictViewExpressionTokenizedEditor extends libPictViewClass
 .peq-te-linter-message-error
 {
 	background: #FEF2F2;
-	color: #991B1B;
-	border-left: 3px solid #DC2626;
+	color: var(--theme-color-status-error, #991B1B);
+	border-left: 3px solid var(--theme-color-status-error, #DC2626);
 }
 .peq-te-linter-message-warning
 {

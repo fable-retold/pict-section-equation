@@ -321,7 +321,7 @@ class PictViewExpressionSolve extends libPictViewClass
 			}
 			.peq-step-op
 			{
-				color: #dc2626;
+				color: var(--theme-color-status-error, #dc2626);
 				font-weight: 700;
 				text-align: center;
 				width: 40px;
@@ -485,7 +485,7 @@ class PictViewExpressionSolve extends libPictViewClass
 		else if (tmpVirtualSymbolPrefix === 'VFE')
 		{
 			// Function call
-			tmpExpressionHTML = `<span style="color:#d97706">${this.escapeHTML(tmpOperationToken)}</span>(<span>${this.buildOperandHTML(pOperation.LeftValue, pResultObject)}</span>)`;
+			tmpExpressionHTML = `<span style="color:var(--theme-color-status-warning, #d97706)">${this.escapeHTML(tmpOperationToken)}</span>(<span>${this.buildOperandHTML(pOperation.LeftValue, pResultObject)}</span>)`;
 		}
 		else
 		{

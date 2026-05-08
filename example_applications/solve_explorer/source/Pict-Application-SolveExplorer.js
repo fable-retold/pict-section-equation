@@ -154,7 +154,7 @@ class SolveExplorerInputView extends libPictView
 			}
 			.peq-explorer-input-panel
 			{
-				background: #fff;
+				background: var(--theme-color-background-panel, #fff);
 				border: 1px solid #D4C4A8;
 				border-radius: 6px;
 				padding: 16px;

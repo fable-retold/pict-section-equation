@@ -657,7 +657,7 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 			{
 				background: #eff6ff;
 				border-color: #93c5fd;
-				color: #1d4ed8;
+				color: var(--theme-color-brand-primary-hover, #1d4ed8);
 			}
 			.peq-sp-tok-constant .peq-sp-tok-type
 			{
@@ -687,7 +687,7 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 			{
 				background: #f0fdf4;
 				border-color: #86efac;
-				color: #15803d;
+				color: var(--theme-color-status-success, #15803d);
 			}
 			.peq-sp-tok-function .peq-sp-tok-type
 			{
@@ -779,7 +779,7 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 			}
 			.peq-sp-aligned-op
 			{
-				color: #dc2626;
+				color: var(--theme-color-status-error, #dc2626);
 				font-weight: 700;
 			}
 			.peq-sp-aligned-row-top .peq-sp-aligned-cell
