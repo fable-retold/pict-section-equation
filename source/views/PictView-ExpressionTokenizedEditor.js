@@ -455,14 +455,14 @@ class PictViewExpressionTokenizedEditor extends libPictViewClass
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
-	color: #64748b;
+	color: var(--theme-color-text-muted, #64748b);
 	margin-bottom: 4px;
 }
 .peq-te-code-editor-container
 {
 	width: 100%;
 	min-height: 40px;
-	border: 2px solid #e2e8f0;
+	border: 2px solid var(--theme-color-border-light, #e2e8f0);
 	border-radius: 6px;
 	overflow: auto;
 	margin-bottom: 8px;
@@ -471,7 +471,7 @@ class PictViewExpressionTokenizedEditor extends libPictViewClass
 }
 .peq-te-code-editor-container:focus-within
 {
-	border-color: #6366f1;
+	border-color: var(--theme-color-brand-primary, #6366f1);
 }
 .peq-te-code-editor-container .pict-code-editor-wrap
 {
@@ -492,7 +492,7 @@ class PictViewExpressionTokenizedEditor extends libPictViewClass
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.06em;
-	color: #94a3b8;
+	color: var(--theme-color-text-muted, #94a3b8);
 	margin-bottom: 4px;
 }
 .peq-te-linter-tokens + .peq-te-linter-section-label,
@@ -507,7 +507,7 @@ class PictViewExpressionTokenizedEditor extends libPictViewClass
 	gap: 3px;
 	padding: 6px 8px;
 	background: var(--theme-color-background-panel, #FDFCFA);
-	border: 1px solid #E8E3DA;
+	border: 1px solid var(--theme-color-background-tertiary, #E8E3DA);
 	border-radius: 4px;
 	margin-bottom: 10px;
 	min-height: 24px;
@@ -525,40 +525,40 @@ class PictViewExpressionTokenizedEditor extends libPictViewClass
 }
 .peq-te-linter-token-constant
 {
-	background: #FDF6EC;
+	background: color-mix(in srgb, var(--theme-color-status-warning, #FDF6EC) 10%, transparent);
 	color: var(--theme-color-status-warning, #986801);
 }
 .peq-te-linter-token-symbol
 {
-	background: #EEF3FF;
+	background: color-mix(in srgb, var(--theme-color-status-info, #EEF3FF) 10%, transparent);
 	color: var(--theme-color-brand-primary, #4078F2);
 }
 .peq-te-linter-token-operator
 {
-	background: #EAF5F8;
+	background: color-mix(in srgb, var(--theme-color-status-info, #EAF5F8) 10%, transparent);
 	color: var(--theme-color-status-info, #0184BC);
 	font-weight: 600;
 }
 .peq-te-linter-token-function
 {
-	background: #F5ECE4;
-	color: #9E6B47;
+	background: var(--theme-color-background-secondary, #F5ECE4);
+	color: var(--theme-color-brand-primary, #9E6B47);
 	font-weight: 600;
 }
 .peq-te-linter-token-string
 {
-	background: #EEF7EE;
+	background: color-mix(in srgb, var(--theme-color-status-success, #EEF7EE) 10%, transparent);
 	color: var(--theme-color-status-success, #50A14F);
 }
 .peq-te-linter-token-stateaddress
 {
-	background: #F0E8F5;
-	color: #7C3AED;
+	background: color-mix(in srgb, var(--theme-color-brand-accent, #F0E8F5) 15%, transparent);
+	color: var(--theme-color-brand-primary, #7C3AED);
 }
 .peq-te-linter-token-assignment
 {
-	background: #F5ECE4;
-	color: #9E6B47;
+	background: var(--theme-color-background-secondary, #F5ECE4);
+	color: var(--theme-color-brand-primary, #9E6B47);
 	font-weight: 700;
 }
 .peq-te-linter-token-parenthesis
@@ -588,18 +588,18 @@ class PictViewExpressionTokenizedEditor extends libPictViewClass
 }
 .peq-te-linter-message-warning
 {
-	background: #FFFBEB;
-	color: #92400E;
-	border-left: 3px solid #F59E0B;
+	background: color-mix(in srgb, var(--theme-color-status-warning, #FFFBEB) 8%, transparent);
+	color: color-mix(in srgb, var(--theme-color-status-warning, #92400E) 100%, transparent);
+	border-left: 3px solid var(--theme-color-status-warning, #F59E0B);
 }
 .peq-te-linter-ok
 {
 	font-size: 11px;
-	color: #166534;
-	background: #F0FDF4;
+	color: var(--theme-color-status-success, #166534);
+	background: var(--theme-color-background-hover, #F0FDF4);
 	padding: 5px 8px;
 	border-radius: 3px;
-	border-left: 3px solid #22C55E;
+	border-left: 3px solid var(--theme-color-status-success, #22C55E);
 }
 .peq-te-linter-empty
 {

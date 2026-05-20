@@ -381,9 +381,10 @@ suite
 
 						let tmpView = _Pict.addView('ExpressionSolve', {}, libPictViewExpressionSolve);
 
-						Expect(tmpView.getTokenColor('Token.Constant')).to.equal('#2563eb');
-						Expect(tmpView.getTokenColor('Token.Operator')).to.equal('#dc2626');
-						Expect(tmpView.getTokenColor('Unknown.Type')).to.equal('#374151');
+						// Colors are now theme-token-wrapped with a hex fallback.
+						Expect(tmpView.getTokenColor('Token.Constant')).to.equal('var(--theme-color-status-info, #2563eb)');
+						Expect(tmpView.getTokenColor('Token.Operator')).to.equal('var(--theme-color-status-error, #dc2626)');
+						Expect(tmpView.getTokenColor('Unknown.Type')).to.equal('var(--theme-color-text-secondary, #374151)');
 						return fDone();
 					}
 				);

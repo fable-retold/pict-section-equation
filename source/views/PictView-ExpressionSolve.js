@@ -4,15 +4,15 @@ const html = String.raw;
 
 const _TOKEN_TYPE_COLORS =
 {
-	'Token.Constant': '#2563eb',
-	'Token.Operator': '#dc2626',
-	'Token.VirtualSymbol': '#7c3aed',
-	'Token.Symbol': '#059669',
-	'Token.StateAddress': '#059669',
-	'Token.Function': '#d97706',
-	'Token.String': '#0891b2',
-	'Token.Parenthesis': '#6b7280',
-	'Token.LastResult': '#7c3aed'
+	'Token.Constant': 'var(--theme-color-status-info, #2563eb)',
+	'Token.Operator': 'var(--theme-color-status-error, #dc2626)',
+	'Token.VirtualSymbol': 'var(--theme-color-brand-primary, #7c3aed)',
+	'Token.Symbol': 'var(--theme-color-status-success, #059669)',
+	'Token.StateAddress': 'var(--theme-color-status-success, #059669)',
+	'Token.Function': 'var(--theme-color-status-warning, #d97706)',
+	'Token.String': 'var(--theme-color-status-info, #0891b2)',
+	'Token.Parenthesis': 'var(--theme-color-text-secondary, #6b7280)',
+	'Token.LastResult': 'var(--theme-color-brand-primary, #7c3aed)'
 };
 
 const _TOKEN_TYPE_LABELS =
@@ -66,7 +66,7 @@ class PictViewExpressionSolve extends libPictViewClass
 
 	getTokenColor(pType)
 	{
-		return _TOKEN_TYPE_COLORS[pType] || '#374151';
+		return _TOKEN_TYPE_COLORS[pType] || 'var(--theme-color-text-secondary, #374151)';
 	}
 
 	getTokenLabel(pType)
@@ -116,7 +116,7 @@ class PictViewExpressionSolve extends libPictViewClass
 				let tmpTruncated = tmpStr.substring(0, tmpDotIndex + 11);
 				let tmpRemaining = tmpDecimalPart.length - 10;
 				let tmpFullEscaped = this.escapeHTML(tmpStr);
-				return `<span class="peq-truncated-value" data-full-value="${tmpFullEscaped}" data-total-digits="${tmpStr.length}" style="cursor:pointer;">${tmpTruncated}<i style="color:#6b7280; font-style:italic;">...${tmpRemaining} more...</i></span>`;
+				return `<span class="peq-truncated-value" data-full-value="${tmpFullEscaped}" data-total-digits="${tmpStr.length}" style="cursor:pointer;">${tmpTruncated}<i style="color:var(--theme-color-text-secondary, #6b7280); font-style:italic;">...${tmpRemaining} more...</i></span>`;
 			}
 			return tmpStr;
 		}
@@ -182,7 +182,7 @@ class PictViewExpressionSolve extends libPictViewClass
 			let tmpSpan = tmpSpans[i];
 			let tmpFullValue = tmpSpan.getAttribute('data-full-value');
 			let tmpTotalDigits = tmpSpan.getAttribute('data-total-digits');
-			let tmpTooltipHTML = `<div style="font-family:'SF Mono','Fira Code','Cascadia Code',monospace; font-size:12px; line-height:1.6; max-width:400px;"><div style="color:#94a3b8; font-size:11px; margin-bottom:4px;">${tmpTotalDigits} characters</div><div style="word-break:break-all; color:#f1f5f9;">${tmpFullValue}</div></div>`;
+			let tmpTooltipHTML = `<div style="font-family:'SF Mono','Fira Code','Cascadia Code',monospace; font-size:12px; line-height:1.6; max-width:400px;"><div style="color:var(--theme-color-text-muted, #94a3b8); font-size:11px; margin-bottom:4px;">${tmpTotalDigits} characters</div><div style="word-break:break-all; color:var(--theme-color-background-tertiary, #f1f5f9);">${tmpFullValue}</div></div>`;
 			let tmpHandle = tmpModal.richTooltip(tmpSpan, tmpTooltipHTML, { position: 'top', delay: 100, maxWidth: '450px', interactive: true });
 			this._truncatedValueTooltips.push(tmpHandle);
 		}
@@ -228,14 +228,14 @@ class PictViewExpressionSolve extends libPictViewClass
 			.peq-expression-solve
 			{
 				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-				color: #1f2937;
+				color: var(--theme-color-text-primary, #1f2937);
 				line-height: 1.5;
 			}
 			.peq-header
 			{
 				padding: 12px 16px;
-				background: #f8fafc;
-				border: 1px solid #e2e8f0;
+				background: var(--theme-color-background-secondary, #f8fafc);
+				border: 1px solid var(--theme-color-border-light, #e2e8f0);
 				border-radius: 8px;
 				margin-bottom: 16px;
 			}
@@ -244,7 +244,7 @@ class PictViewExpressionSolve extends libPictViewClass
 				font-size: 11px;
 				text-transform: uppercase;
 				letter-spacing: 0.05em;
-				color: #64748b;
+				color: var(--theme-color-text-muted, #64748b);
 				margin-bottom: 4px;
 			}
 			.peq-header-expression
@@ -252,7 +252,7 @@ class PictViewExpressionSolve extends libPictViewClass
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 16px;
 				font-weight: 600;
-				color: #0f172a;
+				color: var(--theme-color-text-primary, #0f172a);
 				word-break: break-all;
 			}
 			.peq-header-result
@@ -260,7 +260,7 @@ class PictViewExpressionSolve extends libPictViewClass
 				margin-top: 8px;
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 14px;
-				color: #059669;
+				color: var(--theme-color-status-success, #059669);
 				font-weight: 600;
 			}
 			.peq-section
@@ -273,10 +273,10 @@ class PictViewExpressionSolve extends libPictViewClass
 				font-weight: 600;
 				text-transform: uppercase;
 				letter-spacing: 0.05em;
-				color: #475569;
+				color: var(--theme-color-text-secondary, #475569);
 				margin-bottom: 8px;
 				padding-bottom: 4px;
-				border-bottom: 2px solid #e2e8f0;
+				border-bottom: 2px solid var(--theme-color-border-light, #e2e8f0);
 			}
 			.peq-steps-table
 			{
@@ -288,10 +288,10 @@ class PictViewExpressionSolve extends libPictViewClass
 			{
 				text-align: left;
 				padding: 6px 10px;
-				background: #f1f5f9;
-				border-bottom: 2px solid #cbd5e1;
+				background: var(--theme-color-background-tertiary, #f1f5f9);
+				border-bottom: 2px solid var(--theme-color-border-default, #cbd5e1);
 				font-weight: 600;
-				color: #475569;
+				color: var(--theme-color-text-secondary, #475569);
 				font-size: 11px;
 				text-transform: uppercase;
 				letter-spacing: 0.05em;
@@ -299,24 +299,24 @@ class PictViewExpressionSolve extends libPictViewClass
 			.peq-steps-table td
 			{
 				padding: 6px 10px;
-				border-bottom: 1px solid #e2e8f0;
+				border-bottom: 1px solid var(--theme-color-border-light, #e2e8f0);
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 12px;
 				vertical-align: top;
 			}
 			.peq-steps-table tr:hover td
 			{
-				background: #f8fafc;
+				background: var(--theme-color-background-secondary, #f8fafc);
 			}
 			.peq-step-num
 			{
-				color: #94a3b8;
+				color: var(--theme-color-text-muted, #94a3b8);
 				font-weight: 600;
 				width: 40px;
 			}
 			.peq-step-symbol
 			{
-				color: #7c3aed;
+				color: var(--theme-color-brand-primary, #7c3aed);
 				font-weight: 600;
 			}
 			.peq-step-op
@@ -328,7 +328,7 @@ class PictViewExpressionSolve extends libPictViewClass
 			}
 			.peq-step-result
 			{
-				color: #059669;
+				color: var(--theme-color-status-success, #059669);
 				font-weight: 600;
 			}
 			.peq-token-badge
@@ -350,10 +350,10 @@ class PictViewExpressionSolve extends libPictViewClass
 			{
 				text-align: left;
 				padding: 6px 10px;
-				background: #f1f5f9;
-				border-bottom: 2px solid #cbd5e1;
+				background: var(--theme-color-background-tertiary, #f1f5f9);
+				border-bottom: 2px solid var(--theme-color-border-default, #cbd5e1);
 				font-weight: 600;
-				color: #475569;
+				color: var(--theme-color-text-secondary, #475569);
 				font-size: 11px;
 				text-transform: uppercase;
 				letter-spacing: 0.05em;
@@ -361,13 +361,13 @@ class PictViewExpressionSolve extends libPictViewClass
 			.peq-symbols-table td
 			{
 				padding: 4px 10px;
-				border-bottom: 1px solid #e2e8f0;
+				border-bottom: 1px solid var(--theme-color-border-light, #e2e8f0);
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 12px;
 			}
 			.peq-symbols-table tr:hover td
 			{
-				background: #f8fafc;
+				background: var(--theme-color-background-secondary, #f8fafc);
 			}
 			.peq-tokens-list
 			{
@@ -375,8 +375,8 @@ class PictViewExpressionSolve extends libPictViewClass
 				flex-wrap: wrap;
 				gap: 4px;
 				padding: 8px;
-				background: #f8fafc;
-				border: 1px solid #e2e8f0;
+				background: var(--theme-color-background-secondary, #f8fafc);
+				border: 1px solid var(--theme-color-border-light, #e2e8f0);
 				border-radius: 6px;
 			}
 			.peq-token-item
@@ -386,7 +386,7 @@ class PictViewExpressionSolve extends libPictViewClass
 				gap: 4px;
 				padding: 3px 8px;
 				border-radius: 4px;
-				border: 1px solid #e2e8f0;
+				border: 1px solid var(--theme-color-border-light, #e2e8f0);
 				background: white;
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 12px;
@@ -402,7 +402,7 @@ class PictViewExpressionSolve extends libPictViewClass
 			{
 				text-align: center;
 				padding: 32px 16px;
-				color: #94a3b8;
+				color: var(--theme-color-text-muted, #94a3b8);
 				font-style: italic;
 			}
 			.peq-log-list
@@ -410,7 +410,7 @@ class PictViewExpressionSolve extends libPictViewClass
 				list-style: none;
 				padding: 8px;
 				margin: 0;
-				background: #1e293b;
+				background: var(--theme-color-text-primary, #1e293b);
 				border-radius: 6px;
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 12px;
@@ -420,7 +420,7 @@ class PictViewExpressionSolve extends libPictViewClass
 			.peq-log-list li
 			{
 				padding: 2px 8px;
-				color: #e2e8f0;
+				color: var(--theme-color-border-light, #e2e8f0);
 			}
 			.peq-log-list li:nth-child(odd)
 			{
@@ -441,7 +441,7 @@ class PictViewExpressionSolve extends libPictViewClass
 
 		if (tmpValue && tmpValue !== tmpTokenText)
 		{
-			return `<span style="color:${tmpColor}">${tmpTokenText}</span> <span style="color:#94a3b8">=</span> <span style="color:#0f172a">${tmpValue}</span>`;
+			return `<span style="color:${tmpColor}">${tmpTokenText}</span> <span style="color:var(--theme-color-text-muted, #94a3b8)">=</span> <span style="color:var(--theme-color-text-primary, #0f172a)">${tmpValue}</span>`;
 		}
 		return `<span style="color:${tmpColor}">${tmpTokenText}</span>`;
 	}
@@ -559,7 +559,7 @@ class PictViewExpressionSolve extends libPictViewClass
 			}
 
 			tmpRows += `<tr>
-				<td style="color:#7c3aed; font-weight:600;">${this.escapeHTML(tmpKey)}</td>
+				<td style="color:var(--theme-color-brand-primary, #7c3aed); font-weight:600;">${this.escapeHTML(tmpKey)}</td>
 				<td>${tmpDisplayValue}</td>
 			</tr>`;
 		}

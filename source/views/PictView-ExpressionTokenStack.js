@@ -4,15 +4,15 @@ const html = String.raw;
 
 const _TOKEN_TYPE_COLORS =
 {
-	'Token.Constant': '#2563eb',
-	'Token.Operator': '#dc2626',
-	'Token.VirtualSymbol': '#7c3aed',
-	'Token.Symbol': '#059669',
-	'Token.StateAddress': '#059669',
-	'Token.Function': '#d97706',
-	'Token.String': '#0891b2',
-	'Token.Parenthesis': '#6b7280',
-	'Token.LastResult': '#7c3aed'
+	'Token.Constant': 'var(--theme-color-status-info, #2563eb)',
+	'Token.Operator': 'var(--theme-color-status-error, #dc2626)',
+	'Token.VirtualSymbol': 'var(--theme-color-brand-primary, #7c3aed)',
+	'Token.Symbol': 'var(--theme-color-status-success, #059669)',
+	'Token.StateAddress': 'var(--theme-color-status-success, #059669)',
+	'Token.Function': 'var(--theme-color-status-warning, #d97706)',
+	'Token.String': 'var(--theme-color-status-info, #0891b2)',
+	'Token.Parenthesis': 'var(--theme-color-text-secondary, #6b7280)',
+	'Token.LastResult': 'var(--theme-color-brand-primary, #7c3aed)'
 };
 
 const _TOKEN_TYPE_LABELS =
@@ -28,13 +28,30 @@ const _TOKEN_TYPE_LABELS =
 	'Token.LastResult': 'Last'
 };
 
+// Each layer derives its bg + border + header from a single base token
+// using color-mix, so the cascade follows whatever theme is active.
+// Layer 0 is intentionally neutral; layers 1-4 pull from status / data
+// tokens picked to stay visually distinct across the bundled themes.
+function _layer(pToken, pFallback)
+{
+	return {
+		bg:     `color-mix(in srgb, var(${pToken}, ${pFallback}) 12%, transparent)`,
+		border: `color-mix(in srgb, var(${pToken}, ${pFallback}) 40%, transparent)`,
+		header: `var(${pToken}, ${pFallback})`
+	};
+}
+
 const _LAYER_COLORS =
 [
-	{ bg: '#f8fafc', border: '#cbd5e1', header: '#475569' },
-	{ bg: '#eff6ff', border: '#93c5fd', header: '#1d4ed8' },
-	{ bg: '#f0fdf4', border: '#86efac', header: '#15803d' },
-	{ bg: '#fefce8', border: '#fde047', header: '#a16207' },
-	{ bg: '#fdf2f8', border: '#f9a8d4', header: '#be185d' }
+	{
+		bg:     'var(--theme-color-background-secondary, #f8fafc)',
+		border: 'var(--theme-color-border-default, #cbd5e1)',
+		header: 'var(--theme-color-text-secondary, #475569)'
+	},
+	_layer('--theme-color-status-info',    '#2563eb'),
+	_layer('--theme-color-status-success', '#15803d'),
+	_layer('--theme-color-status-warning', '#a16207'),
+	_layer('--theme-color-data-7',         '#be185d')
 ];
 
 const default_configuration =
@@ -75,7 +92,7 @@ class PictViewExpressionTokenStack extends libPictViewClass
 
 	getTokenColor(pType)
 	{
-		return _TOKEN_TYPE_COLORS[pType] || '#374151';
+		return _TOKEN_TYPE_COLORS[pType] || 'var(--theme-color-text-secondary, #374151)';
 	}
 
 	getTokenLabel(pType)
@@ -131,7 +148,7 @@ class PictViewExpressionTokenStack extends libPictViewClass
 				let tmpTruncated = tmpStr.substring(0, tmpDotIndex + 11);
 				let tmpRemaining = tmpDecimalPart.length - 10;
 				let tmpFullEscaped = this.escapeHTML(tmpStr);
-				return `<span class="peq-truncated-value" data-full-value="${tmpFullEscaped}" data-total-digits="${tmpStr.length}" style="cursor:pointer;">${tmpTruncated}<i style="color:#6b7280; font-style:italic;">...${tmpRemaining} more...</i></span>`;
+				return `<span class="peq-truncated-value" data-full-value="${tmpFullEscaped}" data-total-digits="${tmpStr.length}" style="cursor:pointer;">${tmpTruncated}<i style="color:var(--theme-color-text-secondary, #6b7280); font-style:italic;">...${tmpRemaining} more...</i></span>`;
 			}
 			return tmpStr;
 		}
@@ -197,7 +214,7 @@ class PictViewExpressionTokenStack extends libPictViewClass
 			let tmpSpan = tmpSpans[i];
 			let tmpFullValue = tmpSpan.getAttribute('data-full-value');
 			let tmpTotalDigits = tmpSpan.getAttribute('data-total-digits');
-			let tmpTooltipHTML = `<div style="font-family:'SF Mono','Fira Code','Cascadia Code',monospace; font-size:12px; line-height:1.6; max-width:400px;"><div style="color:#94a3b8; font-size:11px; margin-bottom:4px;">${tmpTotalDigits} characters</div><div style="word-break:break-all; color:#f1f5f9;">${tmpFullValue}</div></div>`;
+			let tmpTooltipHTML = `<div style="font-family:'SF Mono','Fira Code','Cascadia Code',monospace; font-size:12px; line-height:1.6; max-width:400px;"><div style="color:var(--theme-color-text-muted, #94a3b8); font-size:11px; margin-bottom:4px;">${tmpTotalDigits} characters</div><div style="word-break:break-all; color:var(--theme-color-background-tertiary, #f1f5f9);">${tmpFullValue}</div></div>`;
 			let tmpHandle = tmpModal.richTooltip(tmpSpan, tmpTooltipHTML, { position: 'top', delay: 100, maxWidth: '450px', interactive: true });
 			this._truncatedValueTooltips.push(tmpHandle);
 		}
@@ -286,7 +303,7 @@ class PictViewExpressionTokenStack extends libPictViewClass
 			.peq-ts
 			{
 				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-				color: #1f2937;
+				color: var(--theme-color-text-primary, #1f2937);
 				line-height: 1.5;
 			}
 			.peq-ts-section
@@ -299,21 +316,21 @@ class PictViewExpressionTokenStack extends libPictViewClass
 				font-weight: 600;
 				text-transform: uppercase;
 				letter-spacing: 0.05em;
-				color: #475569;
+				color: var(--theme-color-text-secondary, #475569);
 				margin-bottom: 8px;
 				padding-bottom: 4px;
-				border-bottom: 2px solid #e2e8f0;
+				border-bottom: 2px solid var(--theme-color-border-light, #e2e8f0);
 			}
 			.peq-ts-expression
 			{
 				padding: 10px 14px;
-				background: #f8fafc;
-				border: 1px solid #e2e8f0;
+				background: var(--theme-color-background-secondary, #f8fafc);
+				border: 1px solid var(--theme-color-border-light, #e2e8f0);
 				border-radius: 6px;
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 14px;
 				font-weight: 600;
-				color: #0f172a;
+				color: var(--theme-color-text-primary, #0f172a);
 				margin-bottom: 16px;
 			}
 			.peq-ts-stack
@@ -324,7 +341,7 @@ class PictViewExpressionTokenStack extends libPictViewClass
 			}
 			.peq-ts-frame
 			{
-				border: 2px solid #cbd5e1;
+				border: 2px solid var(--theme-color-border-default, #cbd5e1);
 				border-radius: 8px;
 				margin-bottom: 8px;
 				overflow: hidden;
@@ -359,7 +376,7 @@ class PictViewExpressionTokenStack extends libPictViewClass
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 13px;
 				font-weight: 700;
-				color: #059669;
+				color: var(--theme-color-status-success, #059669);
 			}
 			.peq-ts-frame-tokens
 			{
@@ -377,7 +394,7 @@ class PictViewExpressionTokenStack extends libPictViewClass
 				gap: 1px;
 				padding: 4px 8px;
 				border-radius: 4px;
-				border: 1px solid #e2e8f0;
+				border: 1px solid var(--theme-color-border-light, #e2e8f0);
 				background: white;
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				min-width: 32px;
@@ -398,14 +415,14 @@ class PictViewExpressionTokenStack extends libPictViewClass
 			.peq-ts-token-vref
 			{
 				background: #f5f3ff;
-				border-color: #c4b5fd;
+				border-color: var(--theme-color-brand-accent, #c4b5fd);
 			}
 			.peq-ts-arrow
 			{
 				display: flex;
 				justify-content: center;
 				padding: 2px 0;
-				color: #94a3b8;
+				color: var(--theme-color-text-muted, #94a3b8);
 				font-size: 16px;
 			}
 			.peq-ts-eval-steps
@@ -420,8 +437,8 @@ class PictViewExpressionTokenStack extends libPictViewClass
 				align-items: stretch;
 				gap: 12px;
 				padding: 8px 12px;
-				background: #f8fafc;
-				border: 1px solid #e2e8f0;
+				background: var(--theme-color-background-secondary, #f8fafc);
+				border: 1px solid var(--theme-color-border-light, #e2e8f0);
 				border-radius: 6px;
 			}
 			.peq-ts-eval-step-num
@@ -433,7 +450,7 @@ class PictViewExpressionTokenStack extends libPictViewClass
 				min-width: 28px;
 				font-size: 11px;
 				font-weight: 700;
-				color: #94a3b8;
+				color: var(--theme-color-text-muted, #94a3b8);
 			}
 			.peq-ts-eval-step-op
 			{
@@ -447,12 +464,12 @@ class PictViewExpressionTokenStack extends libPictViewClass
 			.peq-ts-eval-step-expr
 			{
 				font-weight: 600;
-				color: #1e293b;
+				color: var(--theme-color-text-primary, #1e293b);
 			}
 			.peq-ts-eval-step-resolved
 			{
 				font-size: 12px;
-				color: #64748b;
+				color: var(--theme-color-text-muted, #64748b);
 			}
 			.peq-ts-eval-step-stack
 			{
@@ -461,7 +478,7 @@ class PictViewExpressionTokenStack extends libPictViewClass
 				gap: 4px;
 				align-items: center;
 				padding-left: 12px;
-				border-left: 2px solid #e2e8f0;
+				border-left: 2px solid var(--theme-color-border-light, #e2e8f0);
 				min-width: 120px;
 			}
 			.peq-ts-eval-sym
@@ -477,13 +494,13 @@ class PictViewExpressionTokenStack extends libPictViewClass
 			{
 				background: #dcfce7;
 				color: var(--theme-color-status-success, #15803d);
-				border: 1px solid #86efac;
+				border: 1px solid var(--theme-color-status-success, #86efac);
 			}
 			.peq-ts-eval-sym-existing
 			{
-				background: #f1f5f9;
-				color: #475569;
-				border: 1px solid #e2e8f0;
+				background: var(--theme-color-background-tertiary, #f1f5f9);
+				color: var(--theme-color-text-secondary, #475569);
+				border: 1px solid var(--theme-color-border-light, #e2e8f0);
 			}
 			.peq-ts-eval-stack-badge
 			{
@@ -492,8 +509,8 @@ class PictViewExpressionTokenStack extends libPictViewClass
 				border-radius: 10px;
 				font-size: 10px;
 				font-weight: 600;
-				background: #e2e8f0;
-				color: #475569;
+				background: var(--theme-color-border-light, #e2e8f0);
+				color: var(--theme-color-text-secondary, #475569);
 				cursor: default;
 				letter-spacing: 0.02em;
 			}
@@ -501,7 +518,7 @@ class PictViewExpressionTokenStack extends libPictViewClass
 			{
 				text-align: center;
 				padding: 24px 16px;
-				color: #94a3b8;
+				color: var(--theme-color-text-muted, #94a3b8);
 				font-style: italic;
 			}
 		</style>`;
@@ -522,7 +539,7 @@ class PictViewExpressionTokenStack extends libPictViewClass
 		let tmpResolvedDisplay = '';
 		if (pToken.Value !== undefined && pToken.Value !== null && String(pToken.Value) !== pToken.Token)
 		{
-			tmpResolvedDisplay = `<div style="font-size:10px; color:#059669; font-weight:600;">${this.formatNumericValue(pToken.Value)}</div>`;
+			tmpResolvedDisplay = `<div style="font-size:10px; color:var(--theme-color-status-success, #059669); font-weight:600;">${this.formatNumericValue(pToken.Value)}</div>`;
 		}
 
 		return `<div class="peq-ts-token${tmpVRefClass}" style="border-color:${tmpColor}40">
@@ -670,15 +687,15 @@ class PictViewExpressionTokenStack extends libPictViewClass
 			let tmpExprHTML = '';
 			if (tmpOpToken === '=')
 			{
-				tmpExprHTML = `<span style="color:#7c3aed">${this.escapeHTML(tmpVName)}</span> <span style="color:var(--theme-color-status-error, #dc2626)">=</span> ${this.buildOperandText(tmpOp.LeftValue)}`;
+				tmpExprHTML = `<span style="color:var(--theme-color-brand-primary, #7c3aed)">${this.escapeHTML(tmpVName)}</span> <span style="color:var(--theme-color-status-error, #dc2626)">=</span> ${this.buildOperandText(tmpOp.LeftValue)}`;
 			}
 			else if (tmpVPrefix === 'VFE')
 			{
-				tmpExprHTML = `<span style="color:#7c3aed">${this.escapeHTML(tmpVName)}</span> <span style="color:var(--theme-color-status-error, #dc2626)">=</span> <span style="color:var(--theme-color-status-warning, #d97706)">${this.escapeHTML(tmpOpToken)}</span>(${this.buildOperandText(tmpOp.LeftValue)})`;
+				tmpExprHTML = `<span style="color:var(--theme-color-brand-primary, #7c3aed)">${this.escapeHTML(tmpVName)}</span> <span style="color:var(--theme-color-status-error, #dc2626)">=</span> <span style="color:var(--theme-color-status-warning, #d97706)">${this.escapeHTML(tmpOpToken)}</span>(${this.buildOperandText(tmpOp.LeftValue)})`;
 			}
 			else
 			{
-				tmpExprHTML = `<span style="color:#7c3aed">${this.escapeHTML(tmpVName)}</span> <span style="color:var(--theme-color-status-error, #dc2626)">=</span> ${this.buildOperandText(tmpOp.LeftValue)} <span style="color:var(--theme-color-status-error, #dc2626)">${this.escapeHTML(tmpOpToken)}</span> ${this.buildOperandText(tmpOp.RightValue)}`;
+				tmpExprHTML = `<span style="color:var(--theme-color-brand-primary, #7c3aed)">${this.escapeHTML(tmpVName)}</span> <span style="color:var(--theme-color-status-error, #dc2626)">=</span> ${this.buildOperandText(tmpOp.LeftValue)} <span style="color:var(--theme-color-status-error, #dc2626)">${this.escapeHTML(tmpOpToken)}</span> ${this.buildOperandText(tmpOp.RightValue)}`;
 			}
 
 			// Build the resolved expression
@@ -686,15 +703,15 @@ class PictViewExpressionTokenStack extends libPictViewClass
 			let tmpResultVal = this.getVirtualSymbolValue(tmpVName, pResultObject);
 			if (tmpOpToken === '=')
 			{
-				tmpResolvedHTML = `${this.buildResolvedOperandText(tmpOp.LeftValue, pResultObject)} &rarr; <span style="color:#059669; font-weight:600;">${tmpResultVal}</span>`;
+				tmpResolvedHTML = `${this.buildResolvedOperandText(tmpOp.LeftValue, pResultObject)} &rarr; <span style="color:var(--theme-color-status-success, #059669); font-weight:600;">${tmpResultVal}</span>`;
 			}
 			else if (tmpVPrefix === 'VFE')
 			{
-				tmpResolvedHTML = `${this.escapeHTML(tmpOpToken)}(${this.buildResolvedOperandText(tmpOp.LeftValue, pResultObject)}) &rarr; <span style="color:#059669; font-weight:600;">${tmpResultVal}</span>`;
+				tmpResolvedHTML = `${this.escapeHTML(tmpOpToken)}(${this.buildResolvedOperandText(tmpOp.LeftValue, pResultObject)}) &rarr; <span style="color:var(--theme-color-status-success, #059669); font-weight:600;">${tmpResultVal}</span>`;
 			}
 			else
 			{
-				tmpResolvedHTML = `${this.buildResolvedOperandText(tmpOp.LeftValue, pResultObject)} ${this.escapeHTML(tmpOpToken)} ${this.buildResolvedOperandText(tmpOp.RightValue, pResultObject)} &rarr; <span style="color:#059669; font-weight:600;">${tmpResultVal}</span>`;
+				tmpResolvedHTML = `${this.buildResolvedOperandText(tmpOp.LeftValue, pResultObject)} ${this.escapeHTML(tmpOpToken)} ${this.buildResolvedOperandText(tmpOp.RightValue, pResultObject)} &rarr; <span style="color:var(--theme-color-status-success, #059669); font-weight:600;">${tmpResultVal}</span>`;
 			}
 
 			// Build the growing symbol stack (stored as data for tooltip)
@@ -810,7 +827,7 @@ class PictViewExpressionTokenStack extends libPictViewClass
 				for (let j = 0; j < tmpLines.length; j++)
 				{
 					let tmpLine = tmpLines[j];
-					let tmpColor = tmpLine.isNew ? '#4ade80' : '#d4d4d8';
+					let tmpColor = tmpLine.isNew ? 'var(--theme-color-status-success, #4ade80)' : 'var(--theme-color-border-light, #d4d4d8)';
 					let tmpWeight = tmpLine.isNew ? '700' : '400';
 					let tmpPrefix = tmpLine.isNew ? '\u25B6 ' : '';
 					tmpTooltipHTML += `<div style="color:${tmpColor}; font-weight:${tmpWeight};">${tmpPrefix}${tmpLine.name} = ${tmpLine.value}</div>`;

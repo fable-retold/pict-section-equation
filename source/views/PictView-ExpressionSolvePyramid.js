@@ -87,7 +87,7 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 				let tmpTruncated = tmpStr.substring(0, tmpDotIndex + 11);
 				let tmpRemaining = tmpDecimalPart.length - 10;
 				let tmpFullEscaped = this.escapeHTML(tmpStr);
-				return `<span class="peq-truncated-value" data-full-value="${tmpFullEscaped}" data-total-digits="${tmpStr.length}" style="cursor:pointer;">${tmpTruncated}<i style="color:#6b7280; font-style:italic;">...${tmpRemaining} more...</i></span>`;
+				return `<span class="peq-truncated-value" data-full-value="${tmpFullEscaped}" data-total-digits="${tmpStr.length}" style="cursor:pointer;">${tmpTruncated}<i style="color:var(--theme-color-text-secondary, #6b7280); font-style:italic;">...${tmpRemaining} more...</i></span>`;
 			}
 			return tmpStr;
 		}
@@ -153,7 +153,7 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 			let tmpSpan = tmpSpans[i];
 			let tmpFullValue = tmpSpan.getAttribute('data-full-value');
 			let tmpTotalDigits = tmpSpan.getAttribute('data-total-digits');
-			let tmpTooltipHTML = `<div style="font-family:'SF Mono','Fira Code','Cascadia Code',monospace; font-size:12px; line-height:1.6; max-width:400px;"><div style="color:#94a3b8; font-size:11px; margin-bottom:4px;">${tmpTotalDigits} characters</div><div style="word-break:break-all; color:#f1f5f9;">${tmpFullValue}</div></div>`;
+			let tmpTooltipHTML = `<div style="font-family:'SF Mono','Fira Code','Cascadia Code',monospace; font-size:12px; line-height:1.6; max-width:400px;"><div style="color:var(--theme-color-text-muted, #94a3b8); font-size:11px; margin-bottom:4px;">${tmpTotalDigits} characters</div><div style="word-break:break-all; color:var(--theme-color-background-tertiary, #f1f5f9);">${tmpFullValue}</div></div>`;
 			let tmpHandle = tmpModal.richTooltip(tmpSpan, tmpTooltipHTML, { position: 'top', delay: 100, maxWidth: '450px', interactive: true });
 			this._truncatedValueTooltips.push(tmpHandle);
 		}
@@ -501,7 +501,7 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 			.peq-sp
 			{
 				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-				color: #1f2937;
+				color: var(--theme-color-text-primary, #1f2937);
 				line-height: 1.5;
 			}
 			.peq-sp-title
@@ -510,21 +510,21 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 				font-weight: 600;
 				text-transform: uppercase;
 				letter-spacing: 0.05em;
-				color: #475569;
+				color: var(--theme-color-text-secondary, #475569);
 				margin-bottom: 8px;
 				padding-bottom: 4px;
-				border-bottom: 2px solid #e2e8f0;
+				border-bottom: 2px solid var(--theme-color-border-light, #e2e8f0);
 			}
 			.peq-sp-expression
 			{
 				padding: 10px 14px;
-				background: #f8fafc;
-				border: 1px solid #e2e8f0;
+				background: var(--theme-color-background-secondary, #f8fafc);
+				border: 1px solid var(--theme-color-border-light, #e2e8f0);
 				border-radius: 6px;
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 14px;
 				font-weight: 600;
-				color: #0f172a;
+				color: var(--theme-color-text-primary, #0f172a);
 				margin-bottom: 16px;
 			}
 			.peq-sp-table
@@ -540,23 +540,23 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 				vertical-align: middle;
 				padding: 10px 12px;
 				border-radius: 6px;
-				border: 2px solid #e2e8f0;
-				background: #f8fafc;
+				border: 2px solid var(--theme-color-border-light, #e2e8f0);
+				background: var(--theme-color-background-secondary, #f8fafc);
 			}
 			.peq-sp-cell-root
 			{
-				background: #eef2ff;
-				border-color: #818cf8;
+				background: var(--theme-color-background-hover, #eef2ff);
+				border-color: var(--theme-color-brand-accent, #818cf8);
 			}
 			.peq-sp-cell-op
 			{
-				background: #f0fdf4;
-				border-color: #86efac;
+				background: var(--theme-color-background-hover, #f0fdf4);
+				border-color: var(--theme-color-status-success, #86efac);
 			}
 			.peq-sp-cell-leaf
 			{
-				background: #f8fafc;
-				border-color: #cbd5e1;
+				background: var(--theme-color-background-secondary, #f8fafc);
+				border-color: var(--theme-color-border-default, #cbd5e1);
 			}
 			.peq-sp-cell-empty
 			{
@@ -568,7 +568,7 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 11px;
 				font-weight: 600;
-				color: #7c3aed;
+				color: var(--theme-color-brand-primary, #7c3aed);
 				margin-bottom: 2px;
 			}
 			.peq-sp-expr
@@ -576,13 +576,13 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 13px;
 				font-weight: 600;
-				color: #1e293b;
+				color: var(--theme-color-text-primary, #1e293b);
 			}
 			.peq-sp-resolved
 			{
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 12px;
-				color: #64748b;
+				color: var(--theme-color-text-muted, #64748b);
 				margin-top: 2px;
 			}
 			.peq-sp-value
@@ -590,25 +590,25 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 14px;
 				font-weight: 700;
-				color: #059669;
+				color: var(--theme-color-status-success, #059669);
 			}
 			.peq-sp-leaf-label
 			{
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 13px;
 				font-weight: 600;
-				color: #475569;
+				color: var(--theme-color-text-secondary, #475569);
 			}
 			.peq-sp-leaf-value
 			{
 				font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
 				font-size: 12px;
-				color: #64748b;
+				color: var(--theme-color-text-muted, #64748b);
 			}
 			.peq-sp-cell-var
 			{
-				background: #faf5ff;
-				border-color: #c084fc;
+				background: var(--theme-color-background-secondary, #faf5ff);
+				border-color: var(--theme-color-brand-accent, #c084fc);
 			}
 			.peq-sp-var-badge
 			{
@@ -617,9 +617,9 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 				font-weight: 700;
 				text-transform: uppercase;
 				letter-spacing: 0.08em;
-				color: #7c3aed;
-				background: #ede9fe;
-				border: 1px solid #c4b5fd;
+				color: var(--theme-color-brand-primary, #7c3aed);
+				background: color-mix(in srgb, var(--theme-color-brand-accent, #ede9fe) 18%, transparent);
+				border: 1px solid var(--theme-color-brand-accent, #c4b5fd);
 				border-radius: 3px;
 				padding: 1px 5px;
 				margin-bottom: 3px;
@@ -636,7 +636,7 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 				text-align: center;
 				padding: 6px 10px;
 				border-radius: 5px;
-				border: 1px solid #e2e8f0;
+				border: 1px solid var(--theme-color-border-light, #e2e8f0);
 				min-width: 32px;
 			}
 			.peq-sp-tok-value
@@ -655,69 +655,69 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 			}
 			.peq-sp-tok-constant
 			{
-				background: #eff6ff;
-				border-color: #93c5fd;
+				background: var(--theme-color-background-hover, #eff6ff);
+				border-color: var(--theme-color-status-info, #93c5fd);
 				color: var(--theme-color-brand-primary-hover, #1d4ed8);
 			}
 			.peq-sp-tok-constant .peq-sp-tok-type
 			{
-				color: #60a5fa;
+				color: var(--theme-color-status-info, #60a5fa);
 			}
 			.peq-sp-tok-symbol
 			{
-				background: #faf5ff;
-				border-color: #c084fc;
-				color: #7c3aed;
+				background: var(--theme-color-background-secondary, #faf5ff);
+				border-color: var(--theme-color-brand-accent, #c084fc);
+				color: var(--theme-color-brand-primary, #7c3aed);
 			}
 			.peq-sp-tok-symbol .peq-sp-tok-type
 			{
-				color: #a78bfa;
+				color: var(--theme-color-brand-accent, #a78bfa);
 			}
 			.peq-sp-tok-operator
 			{
-				background: #fff7ed;
-				border-color: #fdba74;
-				color: #c2410c;
+				background: color-mix(in srgb, var(--theme-color-status-warning, #fff7ed) 8%, transparent);
+				border-color: color-mix(in srgb, var(--theme-color-status-warning, #fdba74) 50%, transparent);
+				color: var(--theme-color-status-warning, #c2410c);
 			}
 			.peq-sp-tok-operator .peq-sp-tok-type
 			{
-				color: #fb923c;
+				color: color-mix(in srgb, var(--theme-color-status-warning, #fb923c) 60%, transparent);
 			}
 			.peq-sp-tok-function
 			{
-				background: #f0fdf4;
-				border-color: #86efac;
+				background: var(--theme-color-background-hover, #f0fdf4);
+				border-color: var(--theme-color-status-success, #86efac);
 				color: var(--theme-color-status-success, #15803d);
 			}
 			.peq-sp-tok-function .peq-sp-tok-type
 			{
-				color: #4ade80;
+				color: var(--theme-color-status-success, #4ade80);
 			}
 			.peq-sp-tok-virtual
 			{
-				background: #f1f5f9;
-				border-color: #cbd5e1;
-				color: #475569;
+				background: var(--theme-color-background-tertiary, #f1f5f9);
+				border-color: var(--theme-color-border-default, #cbd5e1);
+				color: var(--theme-color-text-secondary, #475569);
 			}
 			.peq-sp-tok-virtual .peq-sp-tok-type
 			{
-				color: #94a3b8;
+				color: var(--theme-color-text-muted, #94a3b8);
 			}
 			.peq-sp-tok-other
 			{
-				background: #f8fafc;
-				border-color: #e2e8f0;
-				color: #64748b;
+				background: var(--theme-color-background-secondary, #f8fafc);
+				border-color: var(--theme-color-border-light, #e2e8f0);
+				color: var(--theme-color-text-muted, #64748b);
 			}
 			.peq-sp-tok-other .peq-sp-tok-type
 			{
-				color: #94a3b8;
+				color: var(--theme-color-text-muted, #94a3b8);
 			}
 			.peq-sp-empty
 			{
 				text-align: center;
 				padding: 24px 16px;
-				color: #94a3b8;
+				color: var(--theme-color-text-muted, #94a3b8);
 				font-style: italic;
 			}
 			.peq-sp-toolbar
@@ -728,7 +728,7 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 				flex-wrap: wrap;
 				margin-bottom: 10px;
 				font-size: 12px;
-				color: #475569;
+				color: var(--theme-color-text-secondary, #475569);
 			}
 			.peq-sp-toolbar label
 			{
@@ -748,7 +748,7 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 				align-items: center;
 				gap: 8px;
 				padding: 3px 8px;
-				background: #f1f5f9;
+				background: var(--theme-color-background-tertiary, #f1f5f9);
 				border-radius: 4px;
 			}
 			.peq-sp-toolbar-group-label
@@ -757,7 +757,7 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 				font-size: 10px;
 				text-transform: uppercase;
 				letter-spacing: 0.05em;
-				color: #94a3b8;
+				color: var(--theme-color-text-muted, #94a3b8);
 			}
 			.peq-sp-aligned-cell
 			{
@@ -770,12 +770,12 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 			{
 				font-size: 12px;
 				font-weight: 600;
-				color: #334155;
+				color: var(--theme-color-text-secondary, #334155);
 			}
 			.peq-sp-aligned-resolved
 			{
 				font-size: 11px;
-				color: #94a3b8;
+				color: var(--theme-color-text-muted, #94a3b8);
 			}
 			.peq-sp-aligned-op
 			{
@@ -784,12 +784,12 @@ class PictViewExpressionSolvePyramid extends libPictViewClass
 			}
 			.peq-sp-aligned-row-top .peq-sp-aligned-cell
 			{
-				border-bottom: 2px solid #e2e8f0;
+				border-bottom: 2px solid var(--theme-color-border-light, #e2e8f0);
 				padding-bottom: 8px;
 			}
 			.peq-sp-aligned-row-bottom .peq-sp-aligned-cell
 			{
-				border-top: 2px solid #e2e8f0;
+				border-top: 2px solid var(--theme-color-border-light, #e2e8f0);
 				padding-top: 8px;
 			}
 		</style>`;

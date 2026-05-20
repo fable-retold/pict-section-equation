@@ -31,6 +31,6 @@
 		"pict-application": "^1.0.28",
 		"pict-section-code": "^1.0.0",
 		"pict-section-equation": "file:../../",
-		"pict-section-modal": "^0.0.1"
+		"pict-section-modal": "^1.0.0"
 	}
 }
