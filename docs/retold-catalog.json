@@ -1,87 +1,25 @@
 {
-	"Generated": "2026-04-10T17:25:13.274Z",
+	"Generated": "2026-05-22T05:44:47.694Z",
+	"Mode": "module",
 	"GitHubOrg": "stevenvelozo",
 	"DefaultBranch": "master",
-	"Groups": [
-		{
-			"Name": "Dist",
-			"Key": "dist",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": "indoctrinate_content_staging",
-					"Repo": "indoctrinate_content_staging",
-					"Group": "dist",
-					"Branch": "master",
-					"HasDocs": false,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": []
-				}
-			]
-		},
-		{
-			"Name": "Docs",
-			"Key": "docs",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": "css",
-					"Repo": "css",
-					"Group": "docs",
-					"Branch": "master",
-					"HasDocs": true,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": [
-						"css/docuserve.css"
-					]
-				}
-			]
-		},
-		{
-			"Name": "Example_applications",
-			"Key": "example_applications",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": ".data",
-					"Repo": ".data",
-					"Group": "example_applications",
-					"Branch": "master",
-					"HasDocs": false,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": []
-				},
-				{
-					"Name": "solve_explorer",
-					"Repo": "solve_explorer",
-					"Group": "example_applications",
-					"Branch": "master",
-					"HasDocs": false,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": []
-				}
-			]
-		},
-		{
-			"Name": "Source",
-			"Key": "source",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": "views",
-					"Repo": "views",
-					"Group": "source",
-					"Branch": "master",
-					"HasDocs": false,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": []
-				}
-			]
-		}
-	]
+	"Module": {
+		"Name": "pict-section-equation",
+		"Repo": "pict-section-equation",
+		"Group": "",
+		"Branch": "master",
+		"HasDocs": true,
+		"HasCover": false,
+		"Sidebar": [],
+		"DocFiles": [
+			".nojekyll",
+			"Guide.md",
+			"_brand.json",
+			"_version.json",
+			"index.html",
+			"retold-catalog.json",
+			"retold-keyword-index.json"
+		]
+	},
+	"Groups": []
 }

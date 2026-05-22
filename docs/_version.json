@@ -1,7 +1,7 @@
 {
 	"Name": "pict-section-equation",
-	"Version": "0.0.2",
+	"Version": "1.0.1",
 	"Description": "Pict Section for Expression Parser Solve Visualization",
-	"GeneratedAt": "2026-04-10T17:25:13.542Z",
-	"GitCommit": "967f869"
+	"GeneratedAt": "2026-05-22T05:44:47.835Z",
+	"GitCommit": "a09558b"
 }

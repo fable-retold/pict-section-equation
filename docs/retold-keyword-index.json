@@ -1,6 +1,7 @@
 {
-	"Generated": "2026-04-10T17:25:13.519Z",
-	"DocumentCount": 0,
+	"Generated": "2026-05-22T05:44:47.818Z",
+	"Mode": "module",
+	"DocumentCount": 1,
 	"LunrIndex": {
 		"version": "2.3.9",
 		"fields": [
@@ -9,11 +10,155 @@
 			"group",
 			"body"
 		],
-		"fieldVectors": [],
-		"invertedIndex": [],
+		"fieldVectors": [
+			[
+				"title/Guide.md",
+				[
+					0,
+					1.823
+				]
+			],
+			[
+				"module/Guide.md",
+				[
+					1,
+					1.438,
+					2,
+					1.438,
+					3,
+					1.438
+				]
+			],
+			[
+				"group/Guide.md",
+				[]
+			],
+			[
+				"body/Guide.md",
+				[
+					0,
+					0.182,
+					4,
+					0.288,
+					5,
+					0.288,
+					6,
+					0.288,
+					7,
+					0.288
+				]
+			]
+		],
+		"invertedIndex": [
+			[
+				"blahblah",
+				{
+					"_index": 7,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"Guide.md": {}
+					}
+				}
+			],
+			[
+				"documentat",
+				{
+					"_index": 5,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"Guide.md": {}
+					}
+				}
+			],
+			[
+				"equat",
+				{
+					"_index": 3,
+					"title": {},
+					"module": {
+						"Guide.md": {}
+					},
+					"group": {},
+					"body": {}
+				}
+			],
+			[
+				"guid",
+				{
+					"_index": 0,
+					"title": {
+						"Guide.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"Guide.md": {}
+					}
+				}
+			],
+			[
+				"pict",
+				{
+					"_index": 1,
+					"title": {},
+					"module": {
+						"Guide.md": {}
+					},
+					"group": {},
+					"body": {}
+				}
+			],
+			[
+				"section",
+				{
+					"_index": 2,
+					"title": {},
+					"module": {
+						"Guide.md": {}
+					},
+					"group": {},
+					"body": {}
+				}
+			],
+			[
+				"thingi",
+				{
+					"_index": 6,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"Guide.md": {}
+					}
+				}
+			],
+			[
+				"write",
+				{
+					"_index": 4,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"Guide.md": {}
+					}
+				}
+			]
+		],
 		"pipeline": [
 			"stemmer"
 		]
 	},
-	"Documents": {}
+	"Documents": {
+		"Guide.md": {
+			"Title": "Guide",
+			"Module": "pict-section-equation",
+			"Group": "",
+			"DocPath": "Guide.md"
+		}
+	}
 }
