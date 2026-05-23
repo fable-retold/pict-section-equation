@@ -3,6 +3,14 @@
 	"version": "0.0.1",
 	"description": "Expression Solve Explorer Example Application",
 	"main": "source/Pict-Application-SolveExplorer.js",
+	"retold": {
+		"ExampleApplication": {
+			"Stage": true,
+			"Title": "Expression Solve Explorer",
+			"Summary": "Live tour of the Fable Expression Parser — type an expression or pick from a catalog, watch the step-by-step solve, postfix token stack, and nested-pyramid visualizations repaint in parallel.",
+			"Complexity": "Intermediate"
+		}
+	},
 	"scripts": {
 		"start": "node source/Pict-Application-SolveExplorer.js",
 		"build": "npx quack build && npx quack copy"

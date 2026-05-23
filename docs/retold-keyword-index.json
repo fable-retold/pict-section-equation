@@ -1,7 +1,7 @@
 {
-	"Generated": "2026-05-22T05:44:47.818Z",
+	"Generated": "2026-05-23T01:50:47.147Z",
 	"Mode": "module",
-	"DocumentCount": 1,
+	"DocumentCount": 4,
 	"LunrIndex": {
 		"version": "2.3.9",
 		"fields": [
@@ -15,7 +15,7 @@
 				"title/Guide.md",
 				[
 					0,
-					1.823
+					5.039
 				]
 			],
 			[
@@ -37,19 +37,1543 @@
 				"body/Guide.md",
 				[
 					0,
-					0.182,
+					0.597,
 					4,
-					0.288,
+					1.16,
 					5,
-					0.288,
+					2.015,
 					6,
-					0.288,
+					2.015,
 					7,
-					0.288
+					2.015
+				]
+			],
+			[
+				"title/_cover.md",
+				[
+					1,
+					3.055,
+					2,
+					3.055,
+					3,
+					3.055
+				]
+			],
+			[
+				"module/_cover.md",
+				[
+					1,
+					1.438,
+					2,
+					1.438,
+					3,
+					1.438
+				]
+			],
+			[
+				"group/_cover.md",
+				[]
+			],
+			[
+				"body/_cover.md",
+				[
+					1,
+					0.525,
+					2,
+					0.525,
+					3,
+					0.448,
+					8,
+					0.192,
+					9,
+					0.164,
+					10,
+					0.192,
+					11,
+					0.556,
+					12,
+					1.876,
+					13,
+					1.876,
+					14,
+					1.08,
+					15,
+					1.08,
+					16,
+					1.08,
+					17,
+					1.08,
+					18,
+					1.876,
+					19,
+					1.08,
+					20,
+					0.224,
+					21,
+					0.164,
+					22,
+					0.556,
+					23,
+					0.651,
+					24,
+					0.164,
+					25,
+					0.556,
+					26,
+					0.556
+				]
+			],
+			[
+				"title/examples/README.md",
+				[
+					21,
+					1.278,
+					27,
+					4.325
+				]
+			],
+			[
+				"module/examples/README.md",
+				[
+					1,
+					1.438,
+					2,
+					1.438,
+					3,
+					1.438
+				]
+			],
+			[
+				"group/examples/README.md",
+				[]
+			],
+			[
+				"body/examples/README.md",
+				[
+					8,
+					0.202,
+					9,
+					0.16,
+					10,
+					0.189,
+					11,
+					0.541,
+					20,
+					0.225,
+					21,
+					0.202,
+					22,
+					0.541,
+					23,
+					0.541,
+					24,
+					0.16,
+					25,
+					0.541,
+					26,
+					0.541,
+					27,
+					0.541,
+					28,
+					1.326,
+					29,
+					1.827,
+					30,
+					0.541,
+					31,
+					0.541,
+					32,
+					1.052,
+					33,
+					1.052,
+					34,
+					1.052,
+					35,
+					1.052,
+					36,
+					1.245,
+					37,
+					1.052,
+					38,
+					1.052,
+					39,
+					1.052,
+					40,
+					1.052,
+					41,
+					1.052,
+					42,
+					1.052,
+					43,
+					1.052
+				]
+			],
+			[
+				"title/examples/solve_explorer/README.md",
+				[
+					8,
+					1.064,
+					9,
+					0.69,
+					10,
+					0.69,
+					20,
+					0.69,
+					24,
+					0.69,
+					30,
+					2.337,
+					31,
+					2.337
+				]
+			],
+			[
+				"module/examples/solve_explorer/README.md",
+				[
+					1,
+					1.438,
+					2,
+					1.438,
+					3,
+					1.438
+				]
+			],
+			[
+				"group/examples/solve_explorer/README.md",
+				[]
+			],
+			[
+				"body/examples/solve_explorer/README.md",
+				[
+					0,
+					0.17,
+					1,
+					0.332,
+					2,
+					0.395,
+					3,
+					0.451,
+					4,
+					0.33,
+					8,
+					0.201,
+					9,
+					0.165,
+					10,
+					0.207,
+					11,
+					0.685,
+					14,
+					0.33,
+					15,
+					0.33,
+					16,
+					0.8,
+					17,
+					0.33,
+					19,
+					0.691,
+					20,
+					0.225,
+					21,
+					0.122,
+					22,
+					0.279,
+					23,
+					0.17,
+					24,
+					0.105,
+					25,
+					0.17,
+					26,
+					0.17,
+					27,
+					0.412,
+					28,
+					1.119,
+					30,
+					0.17,
+					31,
+					0.355,
+					32,
+					0.884,
+					33,
+					1.005,
+					34,
+					0.542,
+					35,
+					0.542,
+					36,
+					1.05,
+					37,
+					0.542,
+					38,
+					1.193,
+					39,
+					0.884,
+					40,
+					0.8,
+					41,
+					0.8,
+					42,
+					0.33,
+					43,
+					0.542,
+					44,
+					1.39,
+					45,
+					1.39,
+					46,
+					0.573,
+					47,
+					0.573,
+					48,
+					0.942,
+					49,
+					0.573,
+					50,
+					0.573,
+					51,
+					2.16,
+					52,
+					1.2,
+					53,
+					0.942,
+					54,
+					0.942,
+					55,
+					1.2,
+					56,
+					1.944,
+					57,
+					0.942,
+					58,
+					2.274,
+					59,
+					2.205,
+					60,
+					0.573,
+					61,
+					1.651,
+					62,
+					1.2,
+					63,
+					1.2,
+					64,
+					1.2,
+					65,
+					1.745,
+					66,
+					1.944,
+					67,
+					1.536,
+					68,
+					1.2,
+					69,
+					0.942,
+					70,
+					1.39,
+					71,
+					0.573,
+					72,
+					1.2,
+					73,
+					1.651,
+					74,
+					0.573,
+					75,
+					1.39,
+					76,
+					1.888,
+					77,
+					0.573,
+					78,
+					2.133,
+					79,
+					0.573,
+					80,
+					1.39,
+					81,
+					1.944,
+					82,
+					1.536,
+					83,
+					1.2,
+					84,
+					1.745,
+					85,
+					2.183,
+					86,
+					0.573,
+					87,
+					0.942,
+					88,
+					0.942,
+					89,
+					1.2,
+					90,
+					0.942,
+					91,
+					0.573,
+					92,
+					0.573,
+					93,
+					0.573,
+					94,
+					0.573,
+					95,
+					0.942,
+					96,
+					1.536,
+					97,
+					0.573,
+					98,
+					0.573,
+					99,
+					0.573,
+					100,
+					1.2,
+					101,
+					1.536,
+					102,
+					1.39,
+					103,
+					1.536,
+					104,
+					1.944,
+					105,
+					0.942,
+					106,
+					0.573,
+					107,
+					1.2,
+					108,
+					0.942,
+					109,
+					1.2,
+					110,
+					0.942,
+					111,
+					0.573,
+					112,
+					0.942,
+					113,
+					1.39,
+					114,
+					0.573,
+					115,
+					0.942,
+					116,
+					0.573,
+					117,
+					1.2,
+					118,
+					0.942,
+					119,
+					1.2,
+					120,
+					0.942,
+					121,
+					1.39,
+					122,
+					1.745,
+					123,
+					1.2,
+					124,
+					1.651,
+					125,
+					1.39,
+					126,
+					1.2,
+					127,
+					0.573,
+					128,
+					0.573,
+					129,
+					1.2,
+					130,
+					0.942,
+					131,
+					1.536,
+					132,
+					1.39,
+					133,
+					1.888,
+					134,
+					1.39,
+					135,
+					0.573,
+					136,
+					1.2,
+					137,
+					1.39,
+					138,
+					1.2,
+					139,
+					0.942,
+					140,
+					1.2,
+					141,
+					0.942,
+					142,
+					0.942,
+					143,
+					0.942,
+					144,
+					1.2,
+					145,
+					0.942,
+					146,
+					0.573,
+					147,
+					0.942,
+					148,
+					1.2,
+					149,
+					0.942,
+					150,
+					1.2,
+					151,
+					1.2,
+					152,
+					0.942,
+					153,
+					0.573,
+					154,
+					0.942,
+					155,
+					0.573,
+					156,
+					0.942,
+					157,
+					1.2,
+					158,
+					1.2,
+					159,
+					1.823,
+					160,
+					0.942,
+					161,
+					0.942,
+					162,
+					0.942,
+					163,
+					0.573,
+					164,
+					0.573,
+					165,
+					0.573,
+					166,
+					0.573,
+					167,
+					0.573,
+					168,
+					0.942,
+					169,
+					0.573,
+					170,
+					0.573,
+					171,
+					0.573,
+					172,
+					1.39,
+					173,
+					0.573,
+					174,
+					0.573,
+					175,
+					0.942,
+					176,
+					0.573,
+					177,
+					0.573,
+					178,
+					1.651,
+					179,
+					0.942,
+					180,
+					0.573,
+					181,
+					0.573,
+					182,
+					1.2,
+					183,
+					0.573,
+					184,
+					0.573,
+					185,
+					1.2,
+					186,
+					0.573,
+					187,
+					1.2,
+					188,
+					0.573,
+					189,
+					1.2,
+					190,
+					0.942,
+					191,
+					0.573,
+					192,
+					1.888,
+					193,
+					0.573,
+					194,
+					0.573,
+					195,
+					0.573,
+					196,
+					0.573,
+					197,
+					1.2,
+					198,
+					0.573,
+					199,
+					0.942,
+					200,
+					0.942,
+					201,
+					0.573,
+					202,
+					1.2,
+					203,
+					0.573,
+					204,
+					0.573,
+					205,
+					0.573,
+					206,
+					0.573,
+					207,
+					0.573,
+					208,
+					0.573,
+					209,
+					0.573,
+					210,
+					0.573,
+					211,
+					1.2,
+					212,
+					0.573,
+					213,
+					0.573,
+					214,
+					1.745,
+					215,
+					0.573,
+					216,
+					0.942,
+					217,
+					1.2,
+					218,
+					0.573,
+					219,
+					0.573,
+					220,
+					0.573,
+					221,
+					0.573,
+					222,
+					1.2,
+					223,
+					0.573,
+					224,
+					1.651,
+					225,
+					0.942,
+					226,
+					0.573,
+					227,
+					0.573,
+					228,
+					0.573,
+					229,
+					0.573,
+					230,
+					0.942,
+					231,
+					0.942,
+					232,
+					0.573,
+					233,
+					0.573,
+					234,
+					0.573,
+					235,
+					0.573,
+					236,
+					0.942,
+					237,
+					0.573,
+					238,
+					1.2,
+					239,
+					0.573,
+					240,
+					0.573,
+					241,
+					0.573,
+					242,
+					0.573,
+					243,
+					0.573,
+					244,
+					0.573,
+					245,
+					0.573,
+					246,
+					0.573,
+					247,
+					0.573,
+					248,
+					1.2,
+					249,
+					0.573,
+					250,
+					0.942,
+					251,
+					0.573,
+					252,
+					0.573,
+					253,
+					0.573,
+					254,
+					0.573,
+					255,
+					0.573,
+					256,
+					0.573,
+					257,
+					0.573,
+					258,
+					0.942,
+					259,
+					0.942,
+					260,
+					0.573,
+					261,
+					0.942,
+					262,
+					0.573,
+					263,
+					0.942,
+					264,
+					0.573,
+					265,
+					0.573,
+					266,
+					0.573,
+					267,
+					0.573,
+					268,
+					0.942,
+					269,
+					0.573,
+					270,
+					0.573,
+					271,
+					0.942,
+					272,
+					0.573,
+					273,
+					0.573,
+					274,
+					0.942,
+					275,
+					0.573,
+					276,
+					0.573,
+					277,
+					0.942,
+					278,
+					0.573,
+					279,
+					0.573,
+					280,
+					0.573,
+					281,
+					0.573,
+					282,
+					0.573,
+					283,
+					0.573,
+					284,
+					0.573,
+					285,
+					0.942,
+					286,
+					0.573,
+					287,
+					0.573,
+					288,
+					0.573,
+					289,
+					0.573,
+					290,
+					0.573,
+					291,
+					0.573,
+					292,
+					0.573,
+					293,
+					0.573,
+					294,
+					0.573,
+					295,
+					0.573,
+					296,
+					0.573,
+					297,
+					0.573,
+					298,
+					0.573,
+					299,
+					0.573,
+					300,
+					1.2,
+					301,
+					0.573,
+					302,
+					0.573,
+					303,
+					0.573,
+					304,
+					0.573,
+					305,
+					1.39,
+					306,
+					0.942,
+					307,
+					1.39,
+					308,
+					0.942,
+					309,
+					0.573,
+					310,
+					0.573,
+					311,
+					1.2,
+					312,
+					0.573,
+					313,
+					0.573,
+					314,
+					0.573,
+					315,
+					0.573,
+					316,
+					0.573,
+					317,
+					0.573,
+					318,
+					0.942,
+					319,
+					1.2,
+					320,
+					0.573,
+					321,
+					0.573,
+					322,
+					0.573,
+					323,
+					0.573,
+					324,
+					0.573,
+					325,
+					0.942,
+					326,
+					1.2,
+					327,
+					0.573,
+					328,
+					0.573,
+					329,
+					0.573,
+					330,
+					0.573,
+					331,
+					0.573,
+					332,
+					0.573,
+					333,
+					0.573,
+					334,
+					0.942,
+					335,
+					0.573,
+					336,
+					0.573,
+					337,
+					0.573,
+					338,
+					0.573,
+					339,
+					0.573,
+					340,
+					0.573,
+					341,
+					0.573,
+					342,
+					0.573,
+					343,
+					0.573,
+					344,
+					0.573,
+					345,
+					0.942,
+					346,
+					0.573,
+					347,
+					0.942,
+					348,
+					0.573,
+					349,
+					0.573,
+					350,
+					0.573,
+					351,
+					0.573,
+					352,
+					0.573,
+					353,
+					0.573,
+					354,
+					0.573,
+					355,
+					0.942,
+					356,
+					0.942,
+					357,
+					0.942,
+					358,
+					0.942,
+					359,
+					0.942,
+					360,
+					0.573,
+					361,
+					0.942,
+					362,
+					0.942,
+					363,
+					0.573,
+					364,
+					1.2,
+					365,
+					0.573,
+					366,
+					0.573,
+					367,
+					0.573,
+					368,
+					0.573,
+					369,
+					0.573,
+					370,
+					0.573,
+					371,
+					0.573,
+					372,
+					0.573,
+					373,
+					0.573,
+					374,
+					0.573,
+					375,
+					0.573,
+					376,
+					0.573,
+					377,
+					0.942,
+					378,
+					0.573,
+					379,
+					0.573,
+					380,
+					0.573,
+					381,
+					0.573,
+					382,
+					0.573,
+					383,
+					0.573,
+					384,
+					0.942,
+					385,
+					0.573,
+					386,
+					0.573,
+					387,
+					0.573,
+					388,
+					0.573,
+					389,
+					0.573,
+					390,
+					0.573,
+					391,
+					0.573,
+					392,
+					0.573,
+					393,
+					0.573,
+					394,
+					0.573,
+					395,
+					0.573,
+					396,
+					0.573,
+					397,
+					0.573,
+					398,
+					0.573,
+					399,
+					0.573,
+					400,
+					0.573,
+					401,
+					0.573,
+					402,
+					0.573,
+					403,
+					0.573,
+					404,
+					0.573,
+					405,
+					0.573,
+					406,
+					0.573,
+					407,
+					0.573,
+					408,
+					0.573,
+					409,
+					0.573,
+					410,
+					0.573,
+					411,
+					0.573,
+					412,
+					0.573,
+					413,
+					0.573,
+					414,
+					0.573,
+					415,
+					0.573,
+					416,
+					0.573,
+					417,
+					0.573,
+					418,
+					0.573,
+					419,
+					0.573,
+					420,
+					0.573,
+					421,
+					0.573,
+					422,
+					0.573,
+					423,
+					0.573,
+					424,
+					0.573,
+					425,
+					0.573,
+					426,
+					0.573,
+					427,
+					0.573,
+					428,
+					0.573,
+					429,
+					0.573,
+					430,
+					0.573
 				]
 			]
 		],
 		"invertedIndex": [
+			[
+				"",
+				{
+					"_index": 20,
+					"title": {
+						"examples/solve_explorer/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"1",
+				{
+					"_index": 215,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"150m",
+				{
+					"_index": 136,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"2",
+				{
+					"_index": 237,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"3",
+				{
+					"_index": 257,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"4",
+				{
+					"_index": 269,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"5",
+				{
+					"_index": 303,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"6",
+				{
+					"_index": 331,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"7",
+				{
+					"_index": 349,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"9654",
+				{
+					"_index": 26,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"abov",
+				{
+					"_index": 341,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"actual",
+				{
+					"_index": 154,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"add",
+				{
+					"_index": 278,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"against",
+				{
+					"_index": 264,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"agg",
+				{
+					"_index": 393,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"aggreg",
+				{
+					"_index": 390,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"align",
+				{
+					"_index": 112,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"alreadi",
+				{
+					"_index": 370,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"api",
+				{
+					"_index": 197,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"app",
+				{
+					"_index": 44,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"appdata",
+				{
+					"_index": 196,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"applic",
+				{
+					"_index": 27,
+					"title": {
+						"examples/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"approach",
+				{
+					"_index": 314,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"argument",
+				{
+					"_index": 201,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"arithmet",
+				{
+					"_index": 355,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"around",
+				{
+					"_index": 291,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"array",
+				{
+					"_index": 190,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"assign",
+				{
+					"_index": 356,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"attach",
+				{
+					"_index": 306,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"attribut",
+				{
+					"_index": 316,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"auto",
+				{
+					"_index": 419,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"avoid",
+				{
+					"_index": 328,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"b",
+				{
+					"_index": 376,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"back",
+				{
+					"_index": 225,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"befor",
+				{
+					"_index": 326,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"behaviour",
+				{
+					"_index": 279,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"below",
+				{
+					"_index": 338,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"besid",
+				{
+					"_index": 127,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"between",
+				{
+					"_index": 345,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
 			[
 				"blahblah",
 				{
@@ -59,6 +1583,791 @@
 					"group": {},
 					"body": {
 						"Guide.md": {}
+					}
+				}
+			],
+			[
+				"both",
+				{
+					"_index": 118,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"bracket",
+				{
+					"_index": 418,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"break",
+				{
+					"_index": 382,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"browser",
+				{
+					"_index": 46,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"browser'",
+				{
+					"_index": 317,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"built",
+				{
+					"_index": 189,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"bundl",
+				{
+					"_index": 173,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"bypass",
+				{
+					"_index": 348,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"cach",
+				{
+					"_index": 406,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"cadenc",
+				{
+					"_index": 342,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"call",
+				{
+					"_index": 224,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"callback",
+				{
+					"_index": 89,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"calm",
+				{
+					"_index": 336,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"capabl",
+				{
+					"_index": 98,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"care",
+				{
+					"_index": 296,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"carri",
+				{
+					"_index": 396,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"catalog",
+				{
+					"_index": 34,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"categori",
+				{
+					"_index": 138,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"chain",
+				{
+					"_index": 275,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"chang",
+				{
+					"_index": 377,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"charact",
+				{
+					"_index": 347,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"check",
+				{
+					"_index": 151,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"checkbox",
+				{
+					"_index": 147,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"claim",
+				{
+					"_index": 77,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"class",
+				{
+					"_index": 164,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"classifi",
+				{
+					"_index": 294,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"clean",
+				{
+					"_index": 398,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"close",
+				{
+					"_index": 384,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"cluster",
+				{
+					"_index": 354,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"code",
+				{
+					"_index": 73,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"codejar",
+				{
+					"_index": 170,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"color",
+				{
+					"_index": 107,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"combin",
+				{
+					"_index": 365,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"comparison",
+				{
+					"_index": 360,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"complet",
+				{
+					"_index": 50,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"complex",
+				{
+					"_index": 22,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"condit",
+				{
+					"_index": 425,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"config",
+				{
+					"_index": 245,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"configur",
+				{
+					"_index": 16,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"consist",
+				{
+					"_index": 236,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"consum",
+				{
+					"_index": 200,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"contain",
+				{
+					"_index": 270,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"content",
+				{
+					"_index": 367,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"contribut",
+				{
+					"_index": 188,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"control",
+				{
+					"_index": 363,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"creat",
+				{
+					"_index": 327,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"curat",
+				{
+					"_index": 54,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"current",
+				{
+					"_index": 366,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"custom",
+				{
+					"_index": 249,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"data",
+				{
+					"_index": 179,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"debounc",
+				{
+					"_index": 134,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"debug",
+				{
+					"_index": 208,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"declar",
+				{
+					"_index": 350,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"decompos",
+				{
+					"_index": 427,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"decoupl",
+				{
+					"_index": 410,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"default",
+				{
+					"_index": 101,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"delet",
+				{
+					"_index": 383,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"deliber",
+				{
+					"_index": 346,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"demonstr",
+				{
+					"_index": 97,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"destin",
+				{
+					"_index": 211,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"destroy",
+				{
+					"_index": 324,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"directli",
+				{
+					"_index": 57,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"display",
+				{
+					"_index": 351,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"div",
+				{
+					"_index": 240,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"document",
+				{
+					"_index": 14,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/solve_explorer/README.md": {}
 					}
 				}
 			],
@@ -75,15 +2384,782 @@
 				}
 			],
 			[
+				"doesn't",
+				{
+					"_index": 295,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"dom",
+				{
+					"_index": 187,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"dot",
+				{
+					"_index": 126,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"drive",
+				{
+					"_index": 172,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"drop",
+				{
+					"_index": 246,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"dropdown",
+				{
+					"_index": 55,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"dure",
+				{
+					"_index": 337,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"dynam",
+				{
+					"_index": 312,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"each",
+				{
+					"_index": 104,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"edit",
+				{
+					"_index": 56,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"editor",
+				{
+					"_index": 85,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"editor'",
+				{
+					"_index": 274,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"emit",
+				{
+					"_index": 266,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"end",
+				{
+					"_index": 88,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"engine'",
+				{
+					"_index": 387,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"entir",
+				{
+					"_index": 161,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"entri",
+				{
+					"_index": 142,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
 				"equat",
 				{
 					"_index": 3,
-					"title": {},
+					"title": {
+						"_cover.md": {}
+					},
 					"module": {
-						"Guide.md": {}
+						"Guide.md": {},
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
 					},
 					"group": {},
-					"body": {}
+					"body": {
+						"_cover.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"error",
+				{
+					"_index": 130,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"exactli",
+				{
+					"_index": 72,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"exampl",
+				{
+					"_index": 21,
+					"title": {
+						"examples/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"exist",
+				{
+					"_index": 149,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"explicit",
+				{
+					"_index": 218,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"explor",
+				{
+					"_index": 24,
+					"title": {
+						"examples/solve_explorer/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"explorer'",
+				{
+					"_index": 181,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"export",
+				{
+					"_index": 102,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"expos",
+				{
+					"_index": 260,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"express",
+				{
+					"_index": 8,
+					"title": {
+						"examples/solve_explorer/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"expressionpars",
+				{
+					"_index": 153,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"extend",
+				{
+					"_index": 282,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"extern",
+				{
+					"_index": 116,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"fabl",
+				{
+					"_index": 31,
+					"title": {
+						"examples/solve_explorer/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"failur",
+				{
+					"_index": 299,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"fall",
+				{
+					"_index": 287,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"fallback",
+				{
+					"_index": 293,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"fan",
+				{
+					"_index": 157,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"fastest",
+				{
+					"_index": 343,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"featur",
+				{
+					"_index": 214,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"file",
+				{
+					"_index": 160,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"fill",
+				{
+					"_index": 203,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"final",
+				{
+					"_index": 207,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"financ",
+				{
+					"_index": 361,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"fire",
+				{
+					"_index": 135,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"first",
+				{
+					"_index": 286,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"flag",
+				{
+					"_index": 210,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"flavor",
+				{
+					"_index": 388,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"fledg",
+				{
+					"_index": 413,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"flight",
+				{
+					"_index": 193,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"flip",
+				{
+					"_index": 60,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"forward",
+				{
+					"_index": 397,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"framework'",
+				{
+					"_index": 216,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"freez",
+				{
+					"_index": 389,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"fresh",
+				{
+					"_index": 64,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"front",
+				{
+					"_index": 87,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"full",
+				{
+					"_index": 13,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"fulli",
+				{
+					"_index": 412,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"function",
+				{
+					"_index": 357,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"garden",
+				{
+					"_index": 137,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"get",
+				{
+					"_index": 301,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"github",
+				{
+					"_index": 18,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"glanc",
+				{
+					"_index": 304,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"goe",
+				{
+					"_index": 385,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"group",
+				{
+					"_index": 139,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
 				}
 			],
 			[
@@ -96,7 +3172,1256 @@
 					"module": {},
 					"group": {},
 					"body": {
-						"Guide.md": {}
+						"Guide.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"handl",
+				{
+					"_index": 307,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"health",
+				{
+					"_index": 391,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"here",
+				{
+					"_index": 248,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"hierarchi",
+				{
+					"_index": 111,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"highlight",
+				{
+					"_index": 99,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"hold",
+				{
+					"_index": 162,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"hood",
+				{
+					"_index": 69,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"hook",
+				{
+					"_index": 222,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"host",
+				{
+					"_index": 51,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"html",
+				{
+					"_index": 168,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"human",
+				{
+					"_index": 339,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"implement",
+				{
+					"_index": 262,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"indent",
+				{
+					"_index": 416,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"index",
+				{
+					"_index": 392,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"indic",
+				{
+					"_index": 125,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"inlin",
+				{
+					"_index": 233,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"input",
+				{
+					"_index": 65,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"insert",
+				{
+					"_index": 420,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"insid",
+				{
+					"_index": 185,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"intention",
+				{
+					"_index": 183,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"interact",
+				{
+					"_index": 86,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"intercept",
+				{
+					"_index": 373,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"intermedi",
+				{
+					"_index": 25,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"invoc",
+				{
+					"_index": 194,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"itself",
+				{
+					"_index": 231,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"js",
+				{
+					"_index": 120,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"json",
+				{
+					"_index": 59,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"keep",
+				{
+					"_index": 263,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"key",
+				{
+					"_index": 150,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"keystrok",
+				{
+					"_index": 335,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"land",
+				{
+					"_index": 219,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"last",
+				{
+					"_index": 334,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"latest",
+				{
+					"_index": 226,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"launch",
+				{
+					"_index": 23,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"layer",
+				{
+					"_index": 110,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"layout",
+				{
+					"_index": 163,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"leak",
+				{
+					"_index": 329,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"legend",
+				{
+					"_index": 235,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"lh",
+				{
+					"_index": 212,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"librari",
+				{
+					"_index": 171,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"lifecycl",
+				{
+					"_index": 241,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"line",
+				{
+					"_index": 414,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"list",
+				{
+					"_index": 206,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"listen",
+				{
+					"_index": 423,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"liter",
+				{
+					"_index": 288,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"live",
+				{
+					"_index": 28,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"load",
+				{
+					"_index": 143,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"logic",
+				{
+					"_index": 408,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"look",
+				{
+					"_index": 199,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"loop",
+				{
+					"_index": 228,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"main",
+				{
+					"_index": 254,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"make",
+				{
+					"_index": 404,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"mani",
+				{
+					"_index": 330,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"map",
+				{
+					"_index": 353,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"merg",
+				{
+					"_index": 144,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"mesa",
+				{
+					"_index": 166,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"messag",
+				{
+					"_index": 300,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"method",
+				{
+					"_index": 308,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"minim",
+				{
+					"_index": 184,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"mirror",
+				{
+					"_index": 234,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"modal",
+				{
+					"_index": 319,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"mode",
+				{
+					"_index": 209,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"model",
+				{
+					"_index": 180,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"module'",
+				{
+					"_index": 243,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"monkey",
+				{
+					"_index": 272,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"mount",
+				{
+					"_index": 100,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"multi",
+				{
+					"_index": 96,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"mx",
+				{
+					"_index": 375,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"naiv",
+				{
+					"_index": 313,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"need",
+				{
+					"_index": 309,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"nest",
+				{
+					"_index": 40,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"new",
+				{
+					"_index": 48,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"next",
+				{
+					"_index": 271,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"notic",
+				{
+					"_index": 242,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"number",
+				{
+					"_index": 415,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"object",
+				{
+					"_index": 122,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"on",
+				{
+					"_index": 84,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"onc",
+				{
+					"_index": 256,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"onto",
+				{
+					"_index": 276,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"open",
+				{
+					"_index": 47,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"oper",
+				{
+					"_index": 105,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"operand",
+				{
+					"_index": 106,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"option",
+				{
+					"_index": 422,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"order",
+				{
+					"_index": 109,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"origin",
+				{
+					"_index": 113,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"out",
+				{
+					"_index": 75,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"overrid",
+				{
+					"_index": 247,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"overwrit",
+				{
+					"_index": 61,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"own",
+				{
+					"_index": 258,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"pane",
+				{
+					"_index": 178,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"panel",
+				{
+					"_index": 220,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"parallel",
+				{
+					"_index": 43,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"pars",
+				{
+					"_index": 123,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"parser",
+				{
+					"_index": 9,
+					"title": {
+						"examples/solve_explorer/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"past",
+				{
+					"_index": 289,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"patch",
+				{
+					"_index": 273,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"path",
+				{
+					"_index": 297,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"pattern",
+				{
+					"_index": 277,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"per",
+				{
+					"_index": 140,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"percept",
+				{
+					"_index": 340,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"persist",
+				{
+					"_index": 195,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"physic",
+				{
+					"_index": 362,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"pick",
+				{
+					"_index": 33,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
 					}
 				}
 			],
@@ -104,24 +4429,1299 @@
 				"pict",
 				{
 					"_index": 1,
-					"title": {},
+					"title": {
+						"_cover.md": {}
+					},
 					"module": {
-						"Guide.md": {}
+						"Guide.md": {},
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
 					},
 					"group": {},
-					"body": {}
+					"body": {
+						"_cover.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"pipelin",
+				{
+					"_index": 92,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"point",
+				{
+					"_index": 239,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"popul",
+				{
+					"_index": 191,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"position",
+				{
+					"_index": 322,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"postfix",
+				{
+					"_index": 37,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"preset",
+				{
+					"_index": 230,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"preset'",
+				{
+					"_index": 364,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"previou",
+				{
+					"_index": 325,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"produc",
+				{
+					"_index": 298,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"product",
+				{
+					"_index": 155,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"programmat",
+				{
+					"_index": 229,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"properti",
+				{
+					"_index": 253,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"prove",
+				{
+					"_index": 74,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"public",
+				{
+					"_index": 221,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"pure",
+				{
+					"_index": 421,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"push",
+				{
+					"_index": 83,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"pyramid",
+				{
+					"_index": 41,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"quot",
+				{
+					"_index": 290,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"rang",
+				{
+					"_index": 424,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"re",
+				{
+					"_index": 90,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"read",
+				{
+					"_index": 12,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"real",
+				{
+					"_index": 67,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"red",
+				{
+					"_index": 129,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"refer",
+				{
+					"_index": 17,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"reflect",
+				{
+					"_index": 378,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"regist",
+				{
+					"_index": 217,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"relat",
+				{
+					"_index": 428,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"render",
+				{
+					"_index": 158,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"repaint",
+				{
+					"_index": 42,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"replac",
+				{
+					"_index": 152,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"requir",
+				{
+					"_index": 255,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"resolv",
+				{
+					"_index": 114,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"rest",
+				{
+					"_index": 323,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"result",
+				{
+					"_index": 81,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"return",
+				{
+					"_index": 259,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"reusabl",
+				{
+					"_index": 411,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"right",
+				{
+					"_index": 280,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"rock",
+				{
+					"_index": 165,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"row",
+				{
+					"_index": 115,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"rpn",
+				{
+					"_index": 108,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"rule",
+				{
+					"_index": 417,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"run",
+				{
+					"_index": 45,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"s",
+				{
+					"_index": 175,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"same",
+				{
+					"_index": 159,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"save",
+				{
+					"_index": 267,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"screen",
+				{
+					"_index": 71,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"seam",
+				{
+					"_index": 407,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
 				}
 			],
 			[
 				"section",
 				{
 					"_index": 2,
-					"title": {},
+					"title": {
+						"_cover.md": {}
+					},
 					"module": {
-						"Guide.md": {}
+						"Guide.md": {},
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
 					},
 					"group": {},
-					"body": {}
+					"body": {
+						"_cover.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"see",
+				{
+					"_index": 70,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"seed",
+				{
+					"_index": 63,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"select",
+				{
+					"_index": 141,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"separ",
+				{
+					"_index": 403,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"server",
+				{
+					"_index": 268,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"set",
+				{
+					"_index": 315,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"shape",
+				{
+					"_index": 82,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"share",
+				{
+					"_index": 79,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"shell",
+				{
+					"_index": 169,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"show",
+				{
+					"_index": 103,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"shown",
+				{
+					"_index": 302,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"sibl",
+				{
+					"_index": 251,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"side",
+				{
+					"_index": 238,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"singl",
+				{
+					"_index": 80,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"slice",
+				{
+					"_index": 394,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"slope",
+				{
+					"_index": 372,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"slow",
+				{
+					"_index": 318,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"solv",
+				{
+					"_index": 10,
+					"title": {
+						"examples/solve_explorer/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"solver",
+				{
+					"_index": 156,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"someth",
+				{
+					"_index": 223,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"sourc",
+				{
+					"_index": 117,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"specif",
+				{
+					"_index": 232,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"squar",
+				{
+					"_index": 379,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"stack",
+				{
+					"_index": 39,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"start",
+				{
+					"_index": 19,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"state",
+				{
+					"_index": 182,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"static",
+				{
+					"_index": 252,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"statist",
+				{
+					"_index": 359,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"stay",
+				{
+					"_index": 409,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"step",
+				{
+					"_index": 36,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"still",
+				{
+					"_index": 292,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"strategi",
+				{
+					"_index": 146,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"strict",
+				{
+					"_index": 119,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"string",
+				{
+					"_index": 227,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"style",
+				{
+					"_index": 121,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"subclass",
+				{
+					"_index": 284,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"substitut",
+				{
+					"_index": 381,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"suit",
+				{
+					"_index": 401,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"summari",
+				{
+					"_index": 29,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {}
+					}
+				}
+			],
+			[
+				"suppli",
+				{
+					"_index": 176,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"surfac",
+				{
+					"_index": 131,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"surviv",
+				{
+					"_index": 93,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"swap",
+				{
+					"_index": 310,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"switch",
+				{
+					"_index": 62,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"symbol",
+				{
+					"_index": 205,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"symlink",
+				{
+					"_index": 174,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"sync",
+				{
+					"_index": 198,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"tab",
+				{
+					"_index": 49,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"takeaway",
+				{
+					"_index": 399,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"target",
+				{
+					"_index": 213,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"tell",
+				{
+					"_index": 426,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"templat",
+				{
+					"_index": 265,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"term",
+				{
+					"_index": 380,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"text",
+				{
+					"_index": 311,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"themabl",
+				{
+					"_index": 321,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"theme",
+				{
+					"_index": 167,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"thing",
+				{
+					"_index": 371,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
 				}
 			],
 			[
@@ -137,6 +5737,603 @@
 				}
 			],
 			[
+				"three",
+				{
+					"_index": 76,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"through",
+				{
+					"_index": 95,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"throw",
+				{
+					"_index": 94,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"tini",
+				{
+					"_index": 177,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"toast",
+				{
+					"_index": 429,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"toggl",
+				{
+					"_index": 395,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"token",
+				{
+					"_index": 38,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"tooltip",
+				{
+					"_index": 133,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"top",
+				{
+					"_index": 368,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"tour",
+				{
+					"_index": 30,
+					"title": {
+						"examples/solve_explorer/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"tri",
+				{
+					"_index": 285,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"trig",
+				{
+					"_index": 358,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"trigger",
+				{
+					"_index": 332,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"trivial",
+				{
+					"_index": 405,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"truth",
+				{
+					"_index": 186,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"turn",
+				{
+					"_index": 128,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"two",
+				{
+					"_index": 250,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"type",
+				{
+					"_index": 32,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"typist",
+				{
+					"_index": 344,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"ui",
+				{
+					"_index": 402,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"uncheck",
+				{
+					"_index": 148,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"under",
+				{
+					"_index": 68,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"unexpect",
+				{
+					"_index": 386,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"up",
+				{
+					"_index": 53,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"updat",
+				{
+					"_index": 305,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"us",
+				{
+					"_index": 66,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"usag",
+				{
+					"_index": 15,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"user",
+				{
+					"_index": 192,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"valid",
+				{
+					"_index": 124,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"valu",
+				{
+					"_index": 202,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"variabl",
+				{
+					"_index": 58,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"verbatim",
+				{
+					"_index": 352,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"version",
+				{
+					"_index": 320,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"via",
+				{
+					"_index": 132,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"view",
+				{
+					"_index": 78,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"view'",
+				{
+					"_index": 261,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"virtual",
+				{
+					"_index": 204,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"visual",
+				{
+					"_index": 11,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"visualizer'",
+				{
+					"_index": 244,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"vs",
+				{
+					"_index": 145,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"wait",
+				{
+					"_index": 333,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"watch",
+				{
+					"_index": 35,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"way",
+				{
+					"_index": 281,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"whatev",
+				{
+					"_index": 369,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"whichev",
+				{
+					"_index": 400,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"whole",
+				{
+					"_index": 91,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"whose",
+				{
+					"_index": 430,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"wire",
+				{
+					"_index": 52,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"without",
+				{
+					"_index": 283,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
 				"write",
 				{
 					"_index": 4,
@@ -144,7 +6341,20 @@
 					"module": {},
 					"group": {},
 					"body": {
-						"Guide.md": {}
+						"Guide.md": {},
+						"examples/solve_explorer/README.md": {}
+					}
+				}
+			],
+			[
+				"y",
+				{
+					"_index": 374,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/solve_explorer/README.md": {}
 					}
 				}
 			]
@@ -159,6 +6369,24 @@
 			"Module": "pict-section-equation",
 			"Group": "",
 			"DocPath": "Guide.md"
+		},
+		"_cover.md": {
+			"Title": "Pict-Section-Equation",
+			"Module": "pict-section-equation",
+			"Group": "",
+			"DocPath": "_cover.md"
+		},
+		"examples/README.md": {
+			"Title": "Example Applications",
+			"Module": "pict-section-equation",
+			"Group": "",
+			"DocPath": "examples/README.md"
+		},
+		"examples/solve_explorer/README.md": {
+			"Title": "Expression Solve Explorer — A Tour of the Fable Expression Parser",
+			"Module": "pict-section-equation",
+			"Group": "",
+			"DocPath": "examples/solve_explorer/README.md"
 		}
 	}
 }

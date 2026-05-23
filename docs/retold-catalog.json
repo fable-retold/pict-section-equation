@@ -1,5 +1,5 @@
 {
-	"Generated": "2026-05-22T05:44:47.694Z",
+	"Generated": "2026-05-23T01:50:47.009Z",
 	"Mode": "module",
 	"GitHubOrg": "stevenvelozo",
 	"DefaultBranch": "master",
@@ -9,13 +9,42 @@
 		"Group": "",
 		"Branch": "master",
 		"HasDocs": true,
-		"HasCover": false,
-		"Sidebar": [],
+		"HasCover": true,
+		"Sidebar": [
+			{
+				"Title": "Getting Started",
+				"Children": [
+					{
+						"Title": "Overview",
+						"Path": "README.md"
+					},
+					{
+						"Title": "Guide",
+						"Path": "Guide.md"
+					}
+				]
+			},
+			{
+				"Title": "Examples",
+				"Children": [
+					{
+						"Title": "Expression Solve Explorer",
+						"Path": "#/page/examples/solve_explorer/README"
+					}
+				]
+			}
+		],
 		"DocFiles": [
 			".nojekyll",
 			"Guide.md",
 			"_brand.json",
+			"_cover.md",
+			"_sidebar.md",
 			"_version.json",
+			"examples/README.md",
+			"examples/solve_explorer/README.md",
+			"examples/solve_explorer/codejar.js",
+			"examples/solve_explorer/index.html",
 			"index.html",
 			"retold-catalog.json",
 			"retold-keyword-index.json"
