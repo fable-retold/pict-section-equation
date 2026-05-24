@@ -1,5 +1,5 @@
 {
-	"Generated": "2026-05-23T01:50:47.009Z",
+	"Generated": "2026-05-23T18:24:41.747Z",
 	"Mode": "module",
 	"GitHubOrg": "stevenvelozo",
 	"DefaultBranch": "master",
@@ -45,6 +45,7 @@
 			"examples/solve_explorer/README.md",
 			"examples/solve_explorer/codejar.js",
 			"examples/solve_explorer/index.html",
+			"examples/solve_explorer/pict-section-equation-example-solve-explorer.compatible.min.js",
 			"index.html",
 			"retold-catalog.json",
 			"retold-keyword-index.json"
