@@ -664,6 +664,20 @@ class PictViewExpressionSolve extends libPictViewClass
 		this.renderVisualization();
 	}
 
+	/**
+	 * Single-argument seed hook for environments (e.g. the docuserve section
+	 * playground's BootstrapMethod) that can only pass one value.  Wraps
+	 * `setSolveResult(resultObject, expression)` behind a `{resultObject, expression}`
+	 * payload.
+	 */
+	playgroundSeed(pSeed)
+	{
+		if (pSeed && typeof pSeed.expression === 'string')
+		{
+			this.setSolveResult(pSeed.resultObject || {}, pSeed.expression);
+		}
+	}
+
 	renderVisualization()
 	{
 		let tmpContent = this.buildVisualizationHTML();

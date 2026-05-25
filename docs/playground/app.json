@@ -1,0 +1,6 @@
+{
+	"Name": "Equation Playground",
+	"Hash": "EquationPlayground",
+	"MainViewportViewIdentifier": "ExpressionSolve",
+	"AutoRenderMainViewportViewAfterInitialize": true
+}

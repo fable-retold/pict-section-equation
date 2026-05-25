@@ -1,0 +1,110 @@
+{
+	"EquationSeed":
+	{
+		"expression": "Area = Width * Height",
+		"resultObject":
+		{
+			"RawExpression": "Area = Width * Height",
+			"SolverDirectives": { "Name": "Solve Expression", "Code": "SOLVE" },
+			"RawTokens": [ "Area", "=", "Width", "*", "Height" ],
+			"ExpressionParserLog":
+			[
+				"INFO: ExpressionParser.substituteValuesInTokenizedObjects found a value [8] for the state address Width at index 0",
+				"INFO: ExpressionParser.substituteValuesInTokenizedObjects found a value [5] for the state address Height at index 2"
+			],
+			"OriginalRawTokens": [ "Area", "=", "Width", "*", "Height" ],
+			"SolverDirectiveTokens": [],
+			"LinterResults": [],
+			"PostfixedAssignmentAddress": "Area",
+			"PostfixedAssignmentOperator":
+			{
+				"Name": "Assign Value",
+				"Token": "=",
+				"Function": "fable.Math.assignValue",
+				"Precedence": 0,
+				"Type": "Assignment",
+				"Length": 1
+			},
+			"PostfixTokenObjects":
+			[
+				{
+					"Token": "Width", "Type": "Token.Symbol", "Descriptor": false,
+					"Depth": 0, "SolveLayerStack": "SolveSet_0_D_0", "VirtualSymbolName": "V_0",
+					"Resolved": true, "Value": "8"
+				},
+				{
+					"Token": "*", "Type": "Operator",
+					"Descriptor":
+					{
+						"Name": "Multiply", "Token": "*", "Function": "fable.Math.multiplyPrecise",
+						"Precedence": 3, "Type": "Operator", "Length": 1
+					},
+					"Depth": 0, "SolveLayerStack": "SolveSet_0_D_0", "VirtualSymbolName": "V_0",
+					"Parsed": true
+				},
+				{
+					"Token": "Height", "Type": "Token.Symbol", "Descriptor": false,
+					"Depth": 0, "SolveLayerStack": "SolveSet_0_D_0", "VirtualSymbolName": "V_0",
+					"Resolved": true, "Value": "5"
+				}
+			],
+			"PostfixSolveList":
+			[
+				{
+					"VirtualSymbolName": "V_0",
+					"Operation":
+					{
+						"Token": "*", "Type": "Operator",
+						"Descriptor":
+						{
+							"Name": "Multiply", "Token": "*", "Function": "fable.Math.multiplyPrecise",
+							"Precedence": 3, "Type": "Operator", "Length": 1
+						},
+						"Depth": 0, "SolveLayerStack": "SolveSet_0_D_0", "VirtualSymbolName": "V_0",
+						"Parsed": true
+					},
+					"LeftValue":
+					{
+						"Token": "Width", "Type": "Token.Symbol", "Descriptor": false,
+						"Depth": 0, "SolveLayerStack": "SolveSet_0_D_0", "VirtualSymbolName": "V_0",
+						"Resolved": true, "Value": "8"
+					},
+					"RightValue":
+					{
+						"Token": "Height", "Type": "Token.Symbol", "Descriptor": false,
+						"Depth": 0, "SolveLayerStack": "SolveSet_0_D_0", "VirtualSymbolName": "V_0",
+						"Resolved": true, "Value": "5"
+					}
+				},
+				{
+					"VirtualSymbolName": "Area",
+					"Operation":
+					{
+						"Token": "=", "Type": "Operator",
+						"Descriptor":
+						{
+							"Name": "Assign Value", "Token": "=", "Function": "fable.Math.assignValue",
+							"Precedence": 0, "Type": "Assignment", "Length": 1
+						},
+						"VirtualSymbolName": "Area", "Parsed": true
+					},
+					"LeftValue":
+					{
+						"Token": "Result", "Type": "Token.LastResult", "Descriptor": false,
+						"VirtualSymbolName": "Area", "Value": "40"
+					},
+					"RightValue":
+					{
+						"Token": "SolverMarshal", "Type": "Token.SolverMarshal", "Descriptor": false,
+						"VirtualSymbolName": "Area"
+					}
+				}
+			],
+			"PostfixLayerstackMap": { "SolveSet_0_D_0": "V_0" },
+			"VirtualSymbols": { "V_0": "40", "Area": "40" },
+			"LastResult": "40",
+			"SolverFinalVirtualSymbol": "Area",
+			"RawResult": "40"
+		}
+	}
+}
