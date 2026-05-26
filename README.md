@@ -1,6 +1,6 @@
 # pict-section-equation
 
-> **[&#9654; Read the Pict-Section-Equation Documentation](https://stevenvelozo.github.io/pict-section-equation/)** &mdash; interactive docs with the full API reference.
+> **[&#9654; Read the Pict-Section-Equation Documentation](https://fable-retold.github.io/pict-section-equation/)** &mdash; interactive docs with the full API reference.
 
 Pict section views for creating, editing and visualizing Fable Expression Parser solves. Drop a solve visualizer into any Pict application to see step-by-step expression evaluation, intermediate values, and token structure.
 

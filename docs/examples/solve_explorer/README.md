@@ -11,7 +11,7 @@ stack**, and the **nested-pyramid visualization** all repaint in
 parallel. Edit the expression directly; edit the variables JSON;
 flip "overwrite variables" and switch equations to seed fresh
 inputs. Every solve uses the real
-[fable-expression-parser](https://github.com/stevenvelozo/fable-expression-parser)
+[fable-expression-parser](https://github.com/fable-retold/fable-expression-parser)
 under the hood — what you see on screen is exactly what your code
 would see.
 
@@ -469,10 +469,10 @@ npm run build
 
 - [Guide](../../Guide.md) — usage and configuration reference for
   `pict-section-equation`'s views.
-- [pict-section-code](https://github.com/stevenvelozo/pict-section-code) —
+- [pict-section-code](https://github.com/fable-retold/pict-section-code) —
   the editor section used for the variables JSON pane.
-- [pict-section-modal](https://github.com/stevenvelozo/pict-section-modal) —
+- [pict-section-modal](https://github.com/fable-retold/pict-section-modal) —
   the modal / toast / tooltip surface used for the JSON validity
   tooltip.
-- [fable-expression-parser](https://github.com/stevenvelozo/fable-expression-parser) —
+- [fable-expression-parser](https://github.com/fable-retold/fable-expression-parser) —
   the parser whose `solve(...)` API drives every visualization here.

@@ -12,14 +12,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/stevenvelozo/pict-section-equation.git"
+		"url": "git+https://github.com/fable-retold/pict-section-equation.git"
 	},
 	"author": "steven velozo <steven@velozo.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/stevenvelozo/pict-section-equation/issues"
+		"url": "https://github.com/fable-retold/pict-section-equation/issues"
 	},
-	"homepage": "https://github.com/stevenvelozo/pict-section-equation#readme",
+	"homepage": "https://github.com/fable-retold/pict-section-equation#readme",
 	"mocha": {
 		"diff": true,
 		"extension": [
