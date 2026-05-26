@@ -1,7 +1,7 @@
 {
-	"Generated": "2026-05-23T18:24:41.747Z",
+	"Generated": "2026-05-26T18:22:24.904Z",
 	"Mode": "module",
-	"GitHubOrg": "stevenvelozo",
+	"GitHubOrg": "fable-retold",
 	"DefaultBranch": "master",
 	"Module": {
 		"Name": "pict-section-equation",
@@ -39,6 +39,7 @@
 			"Guide.md",
 			"_brand.json",
 			"_cover.md",
+			"_playground.json",
 			"_sidebar.md",
 			"_version.json",
 			"examples/README.md",
@@ -47,6 +48,14 @@
 			"examples/solve_explorer/index.html",
 			"examples/solve_explorer/pict-section-equation-example-solve-explorer.compatible.min.js",
 			"index.html",
+			"playground/app.json",
+			"playground/appdata.json",
+			"playground/application.js",
+			"playground/pict.json",
+			"playground/runtime/pict-application.min.js",
+			"playground/runtime/pict-section-equation.min.js",
+			"playground/runtime/pict-section-modal.min.js",
+			"playground/runtime/pict.min.js",
 			"retold-catalog.json",
 			"retold-keyword-index.json"
 		]
