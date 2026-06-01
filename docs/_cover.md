@@ -10,5 +10,5 @@
 <!-- docuserve:examples:start -->
 | Example | Complexity | Launch |
 |---------|------------|--------|
-| [Expression Solve Explorer](examples/solve%5Fexplorer/README.md) | Intermediate | [&#9654; Launch](examples/solve%5Fexplorer/index.html) |
+| [Expression Solve Explorer](examples/solve%5Fexplorer/README.md) | Intermediate | [Launch](examples/solve%5Fexplorer/index.html) |
 <!-- docuserve:examples:end -->
