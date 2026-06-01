@@ -469,9 +469,9 @@ npm run build
 
 - [Guide](../../Guide.md) - usage and configuration reference for
   `pict-section-equation`'s views.
-- [pict-section-code](https://github.com/fable-retold/pict-section-code) -
+- [pict-section-code](https://fable-retold.github.io/pict-section-code/) -
   the editor section used for the variables JSON pane.
-- [pict-section-modal](https://github.com/fable-retold/pict-section-modal) -
+- [pict-section-modal](https://fable-retold.github.io/pict-section-modal/) -
   the modal / toast / tooltip surface used for the JSON validity
   tooltip.
 - [fable-expression-parser](https://github.com/fable-retold/fable-expression-parser) -
