@@ -3,6 +3,9 @@
 	"version": "1.0.1",
 	"description": "Pict Section for Expression Parser Solve Visualization",
 	"main": "source/Pict-Section-Equation.js",
+	"files": [
+		"source"
+	],
 	"scripts": {
 		"test": "npx mocha -u tdd -R spec",
 		"tests": "npx mocha -u tdd -R spec -g",
