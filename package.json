@@ -1,6 +1,6 @@
 {
 	"name": "pict-section-equation",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "Pict Section for Expression Parser Solve Visualization",
 	"main": "source/Pict-Section-Equation.js",
 	"files": [
